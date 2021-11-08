@@ -135,16 +135,38 @@ kubectl port-forward -n prometheus --address 0.0.0.0 svc/prometheus-grafana 8080
 
 You can now login with the default username `admin` and password `prom-operator`.
 
-### Import a Grafana dashboard
+### Using Kubewarden Grafana dashboard
 
-We can visit `/dashboard/import` in the Grafana dashboard. We can now download the Grafana dashboard
-we provide with the Policy Server:
+Kubewarden project made available a Grafana dashboard with some basic metrics
+where an operator can follow the state of Kubewarden in the cluster. This dashboard
+is available in the Kubewarden repository in a [JSON file](https://raw.githubusercontent.com/kubewarden/policy-server/main/kubewarden-dashboard.json) 
+or in the [Grafana website](https://grafana.com/grafana/dashboards/15144). 
+To import the dashboard into your environment you can download the JSON file 
+from the Grafana website or from the repository:
 
 ```console
 curl https://raw.githubusercontent.com/kubewarden/policy-server/main/kubewarden-dashboard.json
 ```
 
-We can copy this contents, paste them in the `Import via panel json` box in the Grafana UI, and
-click on the `Load` button and then click on `Import` after choosing `Prometheus` as the source.
+Once you have the file in your machine you should access the Grafana dashboard and
+[import it](https://grafana.com/docs/grafana/latest/dashboards/export-import/#import-dashboard).
+Visit `/dashboard/import` in the Grafana dashboard. Copy the JSON file contents, 
+paste it in the `Import via panel json` box in the Grafana UI, and click on the 
+`Load` button and then click on `Import` after choosing `Prometheus` as the source.
 
-As evaluations of resources happen, we will see them in the board.
+Another option is import it directly from the Grafana.com website. For this, 
+copy the dashboard ID from the [dashboard page](https://grafana.com/grafana/dashboards/15144), 
+paste it in the `Import via grafana.com` field and click in the `load` button.  
+After importing the dashboard, define the Prometheus data source to use and finish
+the import process. 
+
+You should be able to see the dashboard similar to this:
+
+![Dashboard 1](./images/dashboard_1.png/)
+![Dashboard 2](./images/dashboard_2.png/)
+
+
+In the dashboard the operator is able to see panels showing the state of all 
+the policies register in Kubewarden and policy specific panels. In order to 
+check some policy specific metrics, the operator can change the value of the 
+`policy_name` variable with the policy name.
