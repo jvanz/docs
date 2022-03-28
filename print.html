@@ -4,49 +4,38 @@
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
         <title>Kubewarden Kubernetes Policy Engine</title>
-        
         <meta name="robots" content="noindex" />
-        
-        
-
-
         <!-- Custom HTML head -->
-        
-
-
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('set','anonymizeIp',!0);
+ga('create', 'UA-56382716-13', 'auto');
+ga('send', 'pageview');
+</script>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="Documentation of Kubewarden project">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
 
-        
         <link rel="icon" href="favicon.svg">
-        
-        
         <link rel="shortcut icon" href="favicon.png">
-        
         <link rel="stylesheet" href="css/variables.css">
         <link rel="stylesheet" href="css/general.css">
         <link rel="stylesheet" href="css/chrome.css">
-        
         <link rel="stylesheet" href="css/print.css" media="print">
-        
-
         <!-- Fonts -->
         <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        
         <link rel="stylesheet" href="fonts/fonts.css">
-        
-
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="highlight.css">
         <link rel="stylesheet" href="tomorrow-night.css">
         <link rel="stylesheet" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
-        
-
-        
     </head>
     <body>
         <!-- Provide site root to javascript -->
@@ -97,7 +86,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="quick-start.html"><strong aria-hidden="true">2.</strong> Quick Start</a></li><li class="chapter-item expanded "><a href="architecture.html"><strong aria-hidden="true">3.</strong> Architecture</a></li><li class="chapter-item expanded "><a href="writing-policies/index.html"><strong aria-hidden="true">4.</strong> Writing Policies</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="writing-policies/spec/01-intro.html"><strong aria-hidden="true">4.1.</strong> Policy Specification</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="writing-policies/spec/02-settings.html"><strong aria-hidden="true">4.1.1.</strong> Settings</a></li><li class="chapter-item expanded "><a href="writing-policies/spec/03-validating-policies.html"><strong aria-hidden="true">4.1.2.</strong> Validating policies</a></li><li class="chapter-item expanded "><a href="writing-policies/spec/04-mutating-policies.html"><strong aria-hidden="true">4.1.3.</strong> Mutating policies</a></li><li class="chapter-item expanded "><a href="writing-policies/spec/05-context-aware-policies.html"><strong aria-hidden="true">4.1.4.</strong> Context aware policies</a></li></ol></li><li class="chapter-item expanded "><a href="writing-policies/rust/01-intro.html"><strong aria-hidden="true">4.2.</strong> Rust</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="writing-policies/rust/02-create-policy.html"><strong aria-hidden="true">4.2.1.</strong> Create a new policy</a></li><li class="chapter-item expanded "><a href="writing-policies/rust/03-define-policy-settings.html"><strong aria-hidden="true">4.2.2.</strong> Define policy settings</a></li><li class="chapter-item expanded "><a href="writing-policies/rust/04-write-validation-logic.html"><strong aria-hidden="true">4.2.3.</strong> Write the validation logic</a></li><li class="chapter-item expanded "><a href="writing-policies/rust/05-mutation-policy.html"><strong aria-hidden="true">4.2.4.</strong> Write a mutation policy</a></li><li class="chapter-item expanded "><a href="writing-policies/rust/06-logging.html"><strong aria-hidden="true">4.2.5.</strong> Logging</a></li><li class="chapter-item expanded "><a href="writing-policies/rust/07-build-and-distribute.html"><strong aria-hidden="true">4.2.6.</strong> Build and distribute</a></li></ol></li><li class="chapter-item expanded "><a href="writing-policies/rego/01-intro.html"><strong aria-hidden="true">4.3.</strong> Rego</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="writing-policies/rego/open-policy-agent/01-intro.html"><strong aria-hidden="true">4.3.1.</strong> Open Policy Agent</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="writing-policies/rego/open-policy-agent/02-create-policy.html"><strong aria-hidden="true">4.3.1.1.</strong> Create a new policy</a></li><li class="chapter-item expanded "><a href="writing-policies/rego/open-policy-agent/03-build-and-run.html"><strong aria-hidden="true">4.3.1.2.</strong> Build and run</a></li><li class="chapter-item expanded "><a href="writing-policies/rego/open-policy-agent/04-distribute.html"><strong aria-hidden="true">4.3.1.3.</strong> Distribute</a></li></ol></li><li class="chapter-item expanded "><a href="writing-policies/rego/gatekeeper/01-intro.html"><strong aria-hidden="true">4.3.2.</strong> Gatekeeper</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="writing-policies/rego/gatekeeper/02-create-policy.html"><strong aria-hidden="true">4.3.2.1.</strong> Create a new policy</a></li><li class="chapter-item expanded "><a href="writing-policies/rego/gatekeeper/03-build-and-run.html"><strong aria-hidden="true">4.3.2.2.</strong> Build and run</a></li><li class="chapter-item expanded "><a href="writing-policies/rego/gatekeeper/04-distribute.html"><strong aria-hidden="true">4.3.2.3.</strong> Distribute</a></li></ol></li><li class="chapter-item expanded "><a href="writing-policies/rego/02-builtin-support.html"><strong aria-hidden="true">4.3.3.</strong> Builtin support</a></li></ol></li><li class="chapter-item expanded "><a href="writing-policies/go/01-intro.html"><strong aria-hidden="true">4.4.</strong> Go</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="writing-policies/go/02-scaffold.html"><strong aria-hidden="true">4.4.1.</strong> Create a new policy</a></li><li class="chapter-item expanded "><a href="writing-policies/go/03-policy-settings.html"><strong aria-hidden="true">4.4.2.</strong> Define policy settings</a></li><li class="chapter-item expanded "><a href="writing-policies/go/04-validation.html"><strong aria-hidden="true">4.4.3.</strong> Write the validation logic</a></li><li class="chapter-item expanded "><a href="writing-policies/go/05-e2e-tests.html"><strong aria-hidden="true">4.4.4.</strong> End-to-end testing</a></li><li class="chapter-item expanded "><a href="writing-policies/go/06-logging.html"><strong aria-hidden="true">4.4.5.</strong> Logging</a></li><li class="chapter-item expanded "><a href="writing-policies/go/07-automate.html"><strong aria-hidden="true">4.4.6.</strong> GitHub Action integration</a></li><li class="chapter-item expanded "><a href="writing-policies/go/08-distribute.html"><strong aria-hidden="true">4.4.7.</strong> Distribute policy</a></li></ol></li><li class="chapter-item expanded "><a href="writing-policies/swift.html"><strong aria-hidden="true">4.5.</strong> Swift</a></li><li class="chapter-item expanded "><a href="writing-policies/typescript.html"><strong aria-hidden="true">4.6.</strong> TypeScript</a></li></ol></li><li class="chapter-item expanded "><a href="distributing-policies.html"><strong aria-hidden="true">5.</strong> Distributing Policies</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="distributing-policies/custom-certificate-authorities.html"><strong aria-hidden="true">5.1.</strong> Custom Certificate Authorities</a></li></ol></li><li class="chapter-item expanded "><a href="testing-policies/01-intro.html"><strong aria-hidden="true">6.</strong> Testing Policies</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="testing-policies/02-policy-authors.html"><strong aria-hidden="true">6.1.</strong> While creating a policy</a></li><li class="chapter-item expanded "><a href="testing-policies/03-cluster-operators.html"><strong aria-hidden="true">6.2.</strong> Before deployment</a></li></ol></li><li class="chapter-item expanded "><a href="operator-manual/01-intro.html"><strong aria-hidden="true">7.</strong> Operator Manual</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="operator-manual/tracing/01-quickstart.html"><strong aria-hidden="true">7.1.</strong> Tracing</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> Introduction</a></li><li class="chapter-item expanded "><a href="quick-start.html"><strong aria-hidden="true">2.</strong> Quick Start</a></li><li class="chapter-item expanded "><a href="tasks.html"><strong aria-hidden="true">3.</strong> Common tasks</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="mutating-policies.html"><strong aria-hidden="true">3.1.</strong> Mutating Policies</a></li></ol></li><li class="chapter-item expanded "><a href="architecture.html"><strong aria-hidden="true">4.</strong> Architecture</a></li><li class="chapter-item expanded "><a href="writing-policies/index.html"><strong aria-hidden="true">5.</strong> Writing Policies</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="writing-policies/spec/01-intro.html"><strong aria-hidden="true">5.1.</strong> Policy Specification</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="writing-policies/spec/02-settings.html"><strong aria-hidden="true">5.1.1.</strong> Settings</a></li><li class="chapter-item expanded "><a href="writing-policies/spec/03-validating-policies.html"><strong aria-hidden="true">5.1.2.</strong> Validating policies</a></li><li class="chapter-item expanded "><a href="writing-policies/spec/04-mutating-policies.html"><strong aria-hidden="true">5.1.3.</strong> Mutating policies</a></li><li class="chapter-item expanded "><a href="writing-policies/spec/05-context-aware-policies.html"><strong aria-hidden="true">5.1.4.</strong> Context aware policies</a></li></ol></li><li class="chapter-item expanded "><a href="writing-policies/rust/01-intro.html"><strong aria-hidden="true">5.2.</strong> Rust</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="writing-policies/rust/02-create-policy.html"><strong aria-hidden="true">5.2.1.</strong> Create a new policy</a></li><li class="chapter-item expanded "><a href="writing-policies/rust/03-define-policy-settings.html"><strong aria-hidden="true">5.2.2.</strong> Define policy settings</a></li><li class="chapter-item expanded "><a href="writing-policies/rust/04-write-validation-logic.html"><strong aria-hidden="true">5.2.3.</strong> Write the validation logic</a></li><li class="chapter-item expanded "><a href="writing-policies/rust/05-mutation-policy.html"><strong aria-hidden="true">5.2.4.</strong> Write a mutation policy</a></li><li class="chapter-item expanded "><a href="writing-policies/rust/06-logging.html"><strong aria-hidden="true">5.2.5.</strong> Logging</a></li><li class="chapter-item expanded "><a href="writing-policies/rust/07-build-and-distribute.html"><strong aria-hidden="true">5.2.6.</strong> Build and distribute</a></li></ol></li><li class="chapter-item expanded "><a href="writing-policies/rego/01-intro.html"><strong aria-hidden="true">5.3.</strong> Rego</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="writing-policies/rego/open-policy-agent/01-intro.html"><strong aria-hidden="true">5.3.1.</strong> Open Policy Agent</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="writing-policies/rego/open-policy-agent/02-create-policy.html"><strong aria-hidden="true">5.3.1.1.</strong> Create a new policy</a></li><li class="chapter-item expanded "><a href="writing-policies/rego/open-policy-agent/03-build-and-run.html"><strong aria-hidden="true">5.3.1.2.</strong> Build and run</a></li><li class="chapter-item expanded "><a href="writing-policies/rego/open-policy-agent/04-distribute.html"><strong aria-hidden="true">5.3.1.3.</strong> Distribute</a></li></ol></li><li class="chapter-item expanded "><a href="writing-policies/rego/gatekeeper/01-intro.html"><strong aria-hidden="true">5.3.2.</strong> Gatekeeper</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="writing-policies/rego/gatekeeper/02-create-policy.html"><strong aria-hidden="true">5.3.2.1.</strong> Create a new policy</a></li><li class="chapter-item expanded "><a href="writing-policies/rego/gatekeeper/03-build-and-run.html"><strong aria-hidden="true">5.3.2.2.</strong> Build and run</a></li><li class="chapter-item expanded "><a href="writing-policies/rego/gatekeeper/04-distribute.html"><strong aria-hidden="true">5.3.2.3.</strong> Distribute</a></li></ol></li><li class="chapter-item expanded "><a href="writing-policies/rego/02-builtin-support.html"><strong aria-hidden="true">5.3.3.</strong> Builtin support</a></li></ol></li><li class="chapter-item expanded "><a href="writing-policies/go/01-intro.html"><strong aria-hidden="true">5.4.</strong> Go</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="writing-policies/go/02-scaffold.html"><strong aria-hidden="true">5.4.1.</strong> Create a new policy</a></li><li class="chapter-item expanded "><a href="writing-policies/go/03-policy-settings.html"><strong aria-hidden="true">5.4.2.</strong> Define policy settings</a></li><li class="chapter-item expanded "><a href="writing-policies/go/04-validation.html"><strong aria-hidden="true">5.4.3.</strong> Write the validation logic</a></li><li class="chapter-item expanded "><a href="writing-policies/go/05-e2e-tests.html"><strong aria-hidden="true">5.4.4.</strong> End-to-end testing</a></li><li class="chapter-item expanded "><a href="writing-policies/go/06-logging.html"><strong aria-hidden="true">5.4.5.</strong> Logging</a></li><li class="chapter-item expanded "><a href="writing-policies/go/07-automate.html"><strong aria-hidden="true">5.4.6.</strong> GitHub Action integration</a></li><li class="chapter-item expanded "><a href="writing-policies/go/08-distribute.html"><strong aria-hidden="true">5.4.7.</strong> Distribute policy</a></li></ol></li><li class="chapter-item expanded "><a href="writing-policies/swift.html"><strong aria-hidden="true">5.5.</strong> Swift</a></li><li class="chapter-item expanded "><a href="writing-policies/typescript.html"><strong aria-hidden="true">5.6.</strong> TypeScript</a></li></ol></li><li class="chapter-item expanded "><a href="distributing-policies.html"><strong aria-hidden="true">6.</strong> Distributing Policies</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="distributing-policies/custom-certificate-authorities.html"><strong aria-hidden="true">6.1.</strong> Custom Certificate Authorities</a></li><li class="chapter-item expanded "><a href="distributing-policies/oci-registries-support.html"><strong aria-hidden="true">6.2.</strong> OCI Registries support</a></li></ol></li><li class="chapter-item expanded "><a href="testing-policies/01-intro.html"><strong aria-hidden="true">7.</strong> Testing Policies</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="testing-policies/02-policy-authors.html"><strong aria-hidden="true">7.1.</strong> While creating a policy</a></li><li class="chapter-item expanded "><a href="testing-policies/03-cluster-operators.html"><strong aria-hidden="true">7.2.</strong> Before deployment</a></li></ol></li><li class="chapter-item expanded "><a href="operator-manual/01-intro.html"><strong aria-hidden="true">8.</strong> Operator Manual</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="operator-manual/policy-servers/01-custom-cas.html"><strong aria-hidden="true">8.1.</strong> Configuring PolicyServers</a></li><li class="chapter-item expanded "><a href="operator-manual/telemetry/01-quickstart.html"><strong aria-hidden="true">8.2.</strong> Telemetry</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="operator-manual/telemetry/opentelemetry/01-quickstart.html"><strong aria-hidden="true">8.2.1.</strong> OpenTelemetry</a></li><li class="chapter-item expanded "><a href="operator-manual/telemetry/metrics/01-quickstart.html"><strong aria-hidden="true">8.2.2.</strong> Metrics</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="operator-manual/telemetry/metrics/02-reference.html"><strong aria-hidden="true">8.2.2.1.</strong> Reference</a></li></ol></li><li class="chapter-item expanded "><a href="operator-manual/telemetry/tracing/01-quickstart.html"><strong aria-hidden="true">8.2.3.</strong> Tracing</a></li></ol></li><li class="chapter-item expanded "><a href="operator-manual/monitor-mode/01-intro.html"><strong aria-hidden="true">8.3.</strong> Monitor mode</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -105,7 +94,6 @@
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                
                 <div id="menu-bar-hover-placeholder"></div>
                 <div id="menu-bar" class="menu-bar sticky bordered">
                     <div class="left-buttons">
@@ -122,32 +110,23 @@
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
                         </ul>
-                        
                         <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
                             <i class="fa fa-search"></i>
                         </button>
-                        
                     </div>
 
                     <h1 class="menu-title">Kubewarden Kubernetes Policy Engine</h1>
 
                     <div class="right-buttons">
-                        
                         <a href="print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
-                        
-                        
                         <a href="https://github.com/kubewarden/docs" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
-                        
-                        
-
                     </div>
                 </div>
 
-                
                 <div id="search-wrapper" class="hidden">
                     <form id="searchbar-outer" class="searchbar-outer">
                         <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
@@ -158,8 +137,6 @@
                         </ul>
                     </div>
                 </div>
-                
-
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
                 <script type="text/javascript">
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
@@ -210,76 +187,97 @@ conversion.</p>
 better, can be published inside of an OCI compliant registry.</p>
 <p>Kubewarden Policies can be stored inside of an OCI compliant registry as
 <a href="https://github.com/opencontainers/artifacts">OCI artifacts</a>.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="quick-start"><a class="header" href="#quick-start">Quick Start</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="quick-start"><a class="header" href="#quick-start">Quick Start</a></h1>
 <p>The Kubewarden stack is made of the following components:</p>
 <ul>
-<li>An arbitrary number of <code>ClusterAdmissionPolicy</code> resources: this is how policies
-are defined inside of Kubernetes</li>
-<li>An arbitrary number of <code>PolicyServer</code> resources, which represent a Deployment of a Kubewarden <code>policy-server</code>.
-This component loads all the policies defined by the administrators and evaluates them</li>
-<li>A Deployment of <code>kubewarden-controller</code>: this is the controller
-that monitors the <code>ClusterAdmissionPolicy</code> resources and interacts
-with the Kubewarden <code>policy-server</code></li>
+<li>An arbitrary number of <code>ClusterAdmissionPolicy</code> resources: this is how policies are defined inside Kubernetes</li>
+<li>An arbitrary number of <code>PolicyServer</code> resources: this component represents a Deployment of a Kubewarden <code>PolicyServer</code>. The policies defined by the administrators are loaded and evaluated by the Kubewarden <code>PolicyServer</code></li>
+<li>A Deployment of <code>kubewarden-controller</code>: this is the controller that monitors the <code>ClusterAdmissionPolicy</code> resources and interacts with the Kubewarden <code>PolicyServer</code> components</li>
 </ul>
-<h2 id="install"><a class="header" href="#install">Install</a></h2>
-<p>The Kubewarden stack can be deployed using a helm chart.
-Currently, the chart depends on cert-manager. Make sure you have <a href="https://cert-manager.io/docs/installation/"><code>cert-manager</code> installed</a> and then install the kubewarden-controller chart. For example:</p>
-<pre><code class="language-console">helm repo add kubewarden https://charts.kubewarden.io
-kubectl apply -f https://github.com/jetstack/cert-manager/releases/download/v1.5.3/cert-manager.yaml
-helm install --create-namespace -n kubewarden kubewarden-crds kubewarden/kubewarden-crds
-helm install --wait -n kubewarden kubewarden-controller kubewarden/kubewarden-controller
+<h2 id="installation"><a class="header" href="#installation">Installation</a></h2>
+<blockquote>
+<p><strong>PREREQUISITES:</strong></p>
+<p>Currently, the chart depends on <code>cert-manager</code>. Make sure you have <a href="https://cert-manager.io/docs/installation/"><code>cert-manager</code> installed</a> <em>before</em> installing the <code>kubewarden-controller</code> chart.</p>
+<p>You can install the latest version of <code>cert-manager</code> by running the following commands:</p>
+</blockquote>
+<pre><code class="language-console">kubectl apply -f https://github.com/jetstack/cert-manager/releases/latest/download/cert-manager.yaml
+
+kubectl wait --for=condition=Available deployment --timeout=2m -n cert-manager --all
 </code></pre>
-<p>This will install on the Kubernetes cluster:</p>
+<p>The Kubewarden stack can be deployed using <code>helm</code> charts as follows:</p>
+<pre><code class="language-console">helm repo add kubewarden https://charts.kubewarden.io
+
+helm install --wait -n kubewarden --create-namespace kubewarden-crds kubewarden/kubewarden-crds
+
+helm install --wait -n kubewarden kubewarden-controller kubewarden/kubewarden-controller
+
+helm install --wait -n kubewarden kubewarden-defaults kubewarden/kubewarden-defaults
+</code></pre>
+<p>The following charts should be installed inside the <code>kubewarden</code> namespace in your Kubernetes cluster:</p>
 <ul>
 <li>
-<p><code>kubewarden-crds</code>  will register the
-<code>ClusterAdmissionPolicy</code> and <code>PolicyServer</code> Custom Resources.</p>
+<p><code>kubewarden-crds</code>, which will register the <code>ClusterAdmissionPolicy</code> and <code>PolicyServer</code> Custom Resource Definitions</p>
 </li>
 <li>
-<p><code>kubewarden-controller</code> with
-the default configuration. It will create a <code>PolicyServer</code> resource named <code>default</code>. The components of the
-Kubewarden stack will be deployed inside of a Kubernetes Namespace
-called <code>kubewarden</code>.</p>
+<p><code>kubewarden-controller</code>, which will install the Kubewarden controller</p>
+</li>
+<li>
+<p><code>kubewarden-defaults</code>, which will create a <code>PolicyServer</code> resource named <code>default</code>. It can also installs a set of
+recommended policies to secure your cluster by enforcing some well known best practices.</p>
 </li>
 </ul>
-<p>The default configuration values should be good enough for the majority of
-deployments, all the options are documented <a href="https://charts.kubewarden.io/#configuration">here</a>.</p>
-<p>The Kubewarden Policy Servers are completely managed by the <code>kubewarden-controller</code>.</p>
-<h2 id="policy-server"><a class="header" href="#policy-server">Policy Server</a></h2>
-<p>Represents a Deployment of Kubewarden <code>policy-server</code>, which receives the requests to be validated. It does that
-by executing Kubewarden's policies</p>
+<blockquote>
+<p><strong>WARNING:</strong>
+Since <a href="https://github.com/kubewarden/kubewarden-controller/releases/tag/v0.4.0"><code>v0.4.0</code></a>, a PolicyServer resource named default will not be created using the <code>kubewarden-controller</code> chart.
+There is another Helm chart called <code>kubewarden-defaults</code>, which now installs
+the default policy server.</p>
+<p>This also means that if you are not using the latest version of the <code>kubewarden-controller</code> and are trying to upgrade,
+your default policy server will not be upgraded or deleted. As a result, you might run into
+issues if you try to install the <code>kubewarden-defaults</code> with some conflicting information, for example the same policy server name.
+Therefore, to be able to take advantage of future upgrades in the <code>kubewarden-defaults</code> helm chart you need to remove the
+existing PolicyServer resource created by the <code>kubewarden-controller</code> before installing the new chart. With this step, you ensure that you are able to update your policy server using Helm upgrades without running into
+resource conflicts. It worth mentioning that when you remove the PolicyServer, all the policies bounded to it will be removed as well.</p>
+</blockquote>
+<blockquote>
+<p><strong>QUICK NOTE:</strong></p>
+<p>The default configuration values should be good enough for the majority of deployments. All options are documented <a href="https://charts.kubewarden.io/#configuration">here</a>.</p>
+</blockquote>
+<h2 id="main-components"><a class="header" href="#main-components">Main components</a></h2>
+<p>Kubewarden has three main components which you will interact with:</p>
+<ul>
+<li>The PolicyServer</li>
+<li>The ClusterAdmissionPolicy</li>
+<li>The AdmissionPolicy</li>
+</ul>
+<h3 id="policyserver"><a class="header" href="#policyserver">PolicyServer</a></h3>
+<p>A Kubewarden <code>PolicyServer</code> is completely managed by the <code>kubewarden-controller</code> and multiple <code>PolicyServers</code> can be deployed in the same Kubernetes cluster.</p>
+<p>The <code>PolicyServer</code> is the component which executes the Kubewarden policies when requests arrive and validates them.</p>
+<p>Default <code>PolicyServer</code> configuration:</p>
 <pre><code class="language-yaml">apiVersion: policies.kubewarden.io/v1alpha2
 kind: PolicyServer
 metadata:
   name: reserved-instance-for-tenant-a
 spec:
   image: ghcr.io/kubewarden/policy-server:v1.0.0
-  replicaSize: 2
+  replicas: 2
   serviceAccountName: sa
   env:
   - name: KUBEWARDEN_LOG_LEVEL
     value: debug
-  - name: KUBEWARDEN_LOG_FMT
-    value: jaeger
-  annotations:
-    sidecar.jaegertracing.io/inject: default
 </code></pre>
 <p>Overview of the attributes of the <code>PolicyServer</code> resource:</p>
-<ul>
-<li><code>image</code>: container image name</li>
-<li><code>replicaSize</code>: number of desired instances</li>
-<li><code>serviceAccountName</code> (optional): <code>policy-server</code> ServiceAccount. Namespace's <code>default</code> ServiceAccount will be used if nothing is provided</li>
-<li><code>env</code> (optional): <code>policy-server</code> environment variables</li>
-<li><code>annotations</code> (optional): <code>policy-server</code> annotations</li>
-</ul>
-<p>Changing any of these attributes will lead to a rollout of the <code>policy-server</code> Deployment with the new configuration.</p>
-<h2 id="kubewarden-policies"><a class="header" href="#kubewarden-policies">Kubewarden Policies</a></h2>
-<p>Enforcing policies is by far the most common operation a Kubernetes
-administrator will perform. You can declare as many policies as you want,
-targeting any kind of Kubernetes resource and type of operation that can be
-done against them.</p>
-<p>The <code>ClusterAdmissionPolicy</code> resource is the core of the Kubewarden stack: this is
-how validating policies are defined.</p>
+<table><thead><tr><th align="center">Required</th><th>Placeholder</th><th>Description</th></tr></thead><tbody>
+<tr><td align="center">✅</td><td><code>image</code></td><td>The name of the container image</td></tr>
+<tr><td align="center">✅</td><td><code>replicas</code></td><td>The number of desired instances</td></tr>
+<tr><td align="center">-</td><td><code>serviceAccountName</code></td><td>The name of the <code>ServiceAccount</code> to use for the <code>PolicyServer</code> deployment. If no value is provided, the default <code>ServiceAccount</code> from the namespace, where the <code>kubewarden-controller</code> is installed, will be used</td></tr>
+<tr><td align="center">-</td><td><code>env</code></td><td>The list of environment variables</td></tr>
+<tr><td align="center">-</td><td><code>annotations</code></td><td>The list of annotations</td></tr>
+</tbody></table>
+<p>Changing any of these attributes will lead to a rollout of the <code>PolicyServer</code> Deployment with the new configuration.</p>
+<h3 id="clusteradmissionpolicy"><a class="header" href="#clusteradmissionpolicy">ClusterAdmissionPolicy</a></h3>
+<p>The <code>ClusterAdmissionPolicy</code> resource is the core of the Kubewarden stack. This resource defines how policies evaluate requests.</p>
+<p>Enforcing policies is the most common operation which a Kubernetes administrator will perform. You can declare as many policies as you want, and each policy will target one or more specific Kubernetes resources (i.e., <code>pods</code>, <code>Custom Resource</code>). You will also specify the type of operation(s) that will be applied for the targeted resource(s). The operations available are <code>CREATE</code>, <code>UPDATE</code>, <code>DELETE</code> and <code>CONNECT</code>.</p>
+<p>Default <code>ClusterAdmissionPolicy</code> configuration:</p>
 <pre><code class="language-yaml">apiVersion: policies.kubewarden.io/v1alpha2
 kind: ClusterAdmissionPolicy
 metadata:
@@ -301,61 +299,41 @@ spec:
     required_drop_capabilities:
     - NET_ADMIN
 </code></pre>
-<p>This is a quick overview of the attributes of the <code>ClusterAdmissionPolicy</code> resource:</p>
-<ul>
-<li><code>policyServer</code>(optional): identifies an existing <code>PolicyServer</code> object. The policy will be served only by this
-<code>policy-server</code> instance. A <code>ClusterAdmissionPolicy</code> that doesn't have an explicit <code>PolicyServer</code>, will be served
-by the one named <code>default</code>.</li>
-<li><code>module</code>: this is the location of the Kubewarden policy, several schemas are
-supported.
-<ul>
-<li><code>registry</code>: download from an <a href="https://github.com/opencontainers/artifacts">OCI artifacts</a>
-compliant container registry</li>
-<li><code>http</code>, <code>https</code>: download from a regular HTTP(s) server</li>
-<li><code>file</code>: load the module from the local filesystem</li>
-</ul>
-</li>
-<li><code>resources</code>: types of resources evaluated by the policy</li>
-<li><code>operations</code>: what operations for the previously given types should
-be forwarded to this admission policy by the API server for
-evaluation.</li>
-<li><code>mutating</code>: a boolean value that must be set to <code>true</code> for policies that can
-mutate incoming requests.</li>
-<li><code>settings</code> (optional): a free-form object that contains the policy
-configuration values.</li>
-<li><code>failurePolicy</code> (optional): how unrecognized errors and timeout errors from
-the policy are handled. Allowed values are <code>Ignore</code> or <code>Fail</code>. <code>Ignore</code> means
-that an error calling the webhook is ignored and the API request is allowed
-to continue. <code>Fail</code> means that an error calling the webhook causes the
-admission to fail and the API request to be rejected.
-The default behaviour is <code>Fail</code>.</li>
-</ul>
-<p>The complete documentation of this Custom Resource can be found
-<a href="https://github.com/kubewarden/kubewarden-controller/blob/main/docs/crds/README.asciidoc">here</a>
-or on
-<a href="https://doc.crds.dev/github.com/kubewarden/kubewarden-controller">docs.crds.dev</a>.</p>
+<p>Overview of the attributes of the <code>ClusterAdmissionPolicy</code> resource:</p>
+<table><thead><tr><th align="center">Required</th><th>Placeholder</th><th>Description</th></tr></thead><tbody>
+<tr><td align="center">-</td><td><code>policy-server</code></td><td>Identifies an existing <code>PolicyServer</code> object. The policy will be served only by this <code>PolicyServer</code> instance. A <code>ClusterAdmissionPolicy</code> that doesn't have an explicit <code>PolicyServer</code>, will be served by the one named <code>default</code></td></tr>
+<tr><td align="center">✅</td><td><code>module</code></td><td>The location of the Kubewarden policy. The following schemes are allowed:</td></tr>
+<tr><td align="center"></td><td></td><td>- <code>registry</code>: The policy is downloaded from an <a href="https://github.com/opencontainers/artifacts">OCI artifacts</a> compliant container registry. Example: <code>registry://&lt;OCI registry/policy URL&gt;</code></td></tr>
+<tr><td align="center"></td><td></td><td>- <code>http</code>, <code>https</code>: The policy is downloaded from a regular HTTP(s) server. Example: <code>https://&lt;website/policy URL&gt;</code></td></tr>
+<tr><td align="center"></td><td></td><td>- <code>file</code>: The policy is loaded from a file in the computer filesystem. Example: <code>file:///&lt;policy WASM binary full path&gt;</code></td></tr>
+<tr><td align="center">✅</td><td><code>resources</code></td><td>The Kubernetes resources evaluated by the policy</td></tr>
+<tr><td align="center">✅</td><td><code>operations</code></td><td>What operations for the previously given types should be forwarded to this admission policy by the API server for evaluation.</td></tr>
+<tr><td align="center">✅</td><td><code>mutating</code></td><td>A boolean value that must be set to <code>true</code> for policies that can mutate incoming requests</td></tr>
+<tr><td align="center">-</td><td><code>settings</code></td><td>A free-form object that contains the policy configuration values</td></tr>
+<tr><td align="center">-</td><td><code>failurePolicy</code></td><td>The action to take if the request evaluated by a policy results in an error. The following options are allowed:</td></tr>
+<tr><td align="center"></td><td></td><td>- <code>Ignore</code>: an error calling the webhook is ignored and the API request is allowed to continue</td></tr>
+<tr><td align="center"></td><td></td><td>- <code>Fail</code>: an error calling the webhook causes the admission to fail and the API request to be rejected</td></tr>
+</tbody></table>
 <blockquote>
-<p><strong>NOTE:</strong> ClusterAdmissionPolicy resources are registered with a <code>*</code> webhook
-<code>scope</code>, which means that registered webhooks will be forwarded all
-requests matching the given <code>resources</code> and <code>operations</code> -- either
-namespaced (in any namespace), or cluster-wide resources.</p>
+<p><strong>NOTE:</strong> The  <code>ClusterAdmissionPolicy</code> resources are registered with a <code>*</code> webhook <code>scope</code>, which means that registered webhooks will forward all requests matching the given <code>resources</code> and <code>operations</code> -- either namespaced (in any namespace), or cluster-wide resources.</p>
 </blockquote>
+<h3 id="admissionpolicy"><a class="header" href="#admissionpolicy">AdmissionPolicy</a></h3>
+<p><code>AdmissionPolicy</code> is a namespace-wide resource. The policy will process only the requests that are targeting the Namespace where the <code>AdmissionPolicy</code> is defined. Other than that, there are no functional differences between the <code>AdmissionPolicy</code> and <code>ClusterAdmissionPolicy</code> resources.</p>
 <blockquote>
-<p><strong>NOTE:</strong> The <code>ClusterAdmissionPolicy</code> resource is cluster-wide. There are
-plans to also provide a namespaced version that will only impact
-registered namespaced resources on its own namespace.</p>
+<p><strong>NOTE:</strong>  <code>AdmissionPolicy</code> requires kubernetes 1.21.0 or above. This is because we are using the <code>kubernetes.io/metadata.name</code> label, which was introduced in kubernetes 1.21.0</p>
 </blockquote>
-<h2 id="enforce-your-first-policy"><a class="header" href="#enforce-your-first-policy">Enforce your first policy</a></h2>
-<p>We will use the <a href="https://github.com/kubewarden/pod-privileged-policy"><code>pod-privileged</code> policy</a>.
-This policy prevents the creation of privileged containers inside of a Kubernetes cluster.</p>
+<p>The complete documentation of these Custom Resources can be found <a href="https://github.com/kubewarden/kubewarden-controller/blob/main/docs/crds/README.asciidoc">here</a> or on <a href="https://doc.crds.dev/github.com/kubewarden/kubewarden-controller">docs.crds.dev</a>.</p>
+<h2 id="example-enforce-your-first-policy"><a class="header" href="#example-enforce-your-first-policy">Example: Enforce your first policy</a></h2>
+<p>For this first example, we will use the <a href="https://github.com/kubewarden/pod-privileged-policy"><code>pod-privileged</code> policy</a>.
+Our goal will be to prevent the creation of privileged containers inside our Kubernetes cluster by enforcing this policy.</p>
 <p>Let's define a <code>ClusterAdmissionPolicy</code> for that:</p>
-<pre><code class="language-shell">kubectl apply -f - &lt;&lt;EOF
+<pre><code class="language-console">kubectl apply -f - &lt;&lt;EOF
 apiVersion: policies.kubewarden.io/v1alpha2
 kind: ClusterAdmissionPolicy
 metadata:
   name: privileged-pods
 spec:
-  module: registry://ghcr.io/kubewarden/policies/pod-privileged:v0.1.5
+  module: registry://ghcr.io/kubewarden/policies/pod-privileged:v0.1.9
   rules:
   - apiGroups: [&quot;&quot;]
     apiVersions: [&quot;v1&quot;]
@@ -366,21 +344,27 @@ spec:
   mutating: false
 EOF
 </code></pre>
-<p>This will produce the following output:
-<code>clusteradmissionpolicy.policies.kubewarden.io/privileged-pods created</code></p>
-<p>Defining the <code>ClusterAdmissionPolicy</code> will set its status to <code>pending</code>, and it will lead to a rollout of the <code>PolicyServer</code> named <code>default</code>. Once the new policy is ready to be served, the <code>kubewarden-controller</code>
-will register a <a href="https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.20/#validatingwebhookconfiguration-v1-admissionregistration-k8s-io">ValidatingWebhookConfiguration</a>
-object.</p>
-<p><code>ClusterAdmissionPolicy</code> status will be set to <code>active</code> once all the instances of Deployment rollout of the <code>policy-server</code> is done. The
-<code>ValidatingWebhookConfiguration</code> can be shown with:</p>
-<pre><code class="language-shell">kubectl get validatingwebhookconfigurations.admissionregistration.k8s.io -l kubewarden
+<p>This will produce the following output:</p>
+<pre><code class="language-console">clusteradmissionpolicy.policies.kubewarden.io/privileged-pods created
 </code></pre>
-<p>Which will output something like</p>
-<pre><code>NAME              WEBHOOKS   AGE     STATUS
-privileged-pods   1          9s      active
+<p>When a  <code>ClusterAdmissionPolicy</code> is defined, the status is set to <code>pending</code>, and it will force a rollout of the targeted <code>PolicyServer</code>. In our example, it's the <code>PolicyServer</code> named <code>default</code>. You can monitor the rollout by running the following command:</p>
+<pre><code class="language-console">kubectl get clusteradmissionpolicy.policies.kubewarden.io/privileged-pods
 </code></pre>
-<p>Let's try to create a Pod with no privileged containers:</p>
-<pre><code class="language-shell">kubectl apply -f - &lt;&lt;EOF
+<p>You should see the following output:</p>
+<pre><code class="language-console">NAME              POLICY SERVER   MUTATING   STATUS
+privileged-pods   default         false      pending
+</code></pre>
+<p>Once the new policy is ready to be served, the <code>kubewarden-controller</code> will register a <a href="https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.20/#validatingwebhookconfiguration-v1-admissionregistration-k8s-io">ValidatingWebhookConfiguration</a> object.</p>
+<p>The <code>ClusterAdmissionPolicy</code> status will be set to <code>active</code> once the Deployment is done for every <code>PolicyServer</code> instance. The <code>ValidatingWebhookConfiguration</code> can be shown with the following command:</p>
+<pre><code class="language-console">kubectl get validatingwebhookconfigurations.admissionregistration.k8s.io -l kubewarden
+</code></pre>
+<p>You should see the following output:</p>
+<pre><code class="language-console">NAME              WEBHOOKS   AGE
+privileged-pods   1          9s
+</code></pre>
+<p>Once the <code>ClusterAdmissionPolicy</code> is active and the <code>ValidatingWebhookConfiguration</code> is registered, you can test the policy.</p>
+<p>First, let's create a Pod with a Container <em>not</em> in <code>privileged</code> mode:</p>
+<pre><code class="language-console">kubectl apply -f - &lt;&lt;EOF
 apiVersion: v1
 kind: Pod
 metadata:
@@ -391,11 +375,12 @@ spec:
       image: nginx:latest
 EOF
 </code></pre>
-<p>This will produce the following output, which means the Pod was successfully
-created:</p>
-<p><code>pod/unprivileged-pod created</code></p>
-<p>Now, let's try to create a pod with at least one privileged container:</p>
-<pre><code class="language-shell">kubectl apply -f - &lt;&lt;EOF
+<p>This will produce the following output:</p>
+<pre><code class="language-console">pod/unprivileged-pod created
+</code></pre>
+<p>The Pod is successfully created.</p>
+<p>Now, let's create a Pod with at least one Container <code>privileged</code> flag:</p>
+<pre><code class="language-console">kubectl apply -f - &lt;&lt;EOF
 apiVersion: v1
 kind: Pod
 metadata:
@@ -408,37 +393,398 @@ spec:
           privileged: true
 EOF
 </code></pre>
-<p>This time the creation of the Pod will be blocked, with the following message:</p>
-<pre><code>Error from server: error when creating &quot;STDIN&quot;: admission webhook &quot;privileged-pods.kubewarden.admission&quot; denied the request: User 'minikube-user' cannot schedule privileged containers
+<p>The creation of the Pod has been denied by the policy and you should see the following message:</p>
+<pre><code class="language-console">Error from server: error when creating &quot;STDIN&quot;: admission webhook &quot;privileged-pods.kubewarden.admission&quot; denied the request: User 'minikube-user' cannot schedule privileged containers
 </code></pre>
+<blockquote>
+<p><strong>NOTE:</strong> both examples didn't define a <code>namespace</code>, which means the <code>default</code> namespace was the target. However, as you could see in the second example, the policy is still applied. As stated above, this is due to the scope being cluster-wide and not targeting a specific namespace.</p>
+</blockquote>
 <h2 id="uninstall"><a class="header" href="#uninstall">Uninstall</a></h2>
-<pre><code class="language-shell">helm uninstall --namespace kubewarden kubewarden-controller
+<p>You can remove the resources created by uninstalling the <code>helm</code> charts as follow:</p>
+<pre><code class="language-console">helm uninstall --namespace kubewarden kubewarden-defaults
+
+helm uninstall --namespace kubewarden kubewarden-controller
+
 helm uninstall --namespace kubewarden kubewarden-crds
 </code></pre>
-<p>Once this is done you can remove the Kubernetes namespace that was used to deploy
-the Kubewarden stack:</p>
-<pre><code class="language-shell">kubectl delete namespace kubewarden
+<p>Once the <code>helm</code> charts have been uninstalled, you can remove the Kubernetes namespace that was used to deploy the Kubewarden stack:</p>
+<pre><code class="language-console">kubectl delete namespace kubewarden
 </code></pre>
 <blockquote>
 <p><strong>Note:</strong> kubewarden contains a helm pre-delete hook that will remove all <code>PolicyServers</code> and <code>kubewarden-controller</code>.
-Then the <code>kubewarden-controller</code> will delete all resources, so it is important that <code>kubewarden-controller</code> is running
-when helm uninstall is executed. </p>
+Then the <code>kubewarden-controller</code> will delete all resources, so it is important that <code>kubewarden-controller</code> is running when helm uninstall is executed.</p>
 </blockquote>
 <p><code>ValidatingWebhookConfigurations</code> and <code>MutatingWebhookConfigurations</code> created by kubewarden should be deleted, this can be checked with:</p>
-<pre><code class="language-shell">kubectl get validatingwebhookconfigurations.admissionregistration.k8s.io -l &quot;kubewarden&quot; &amp;&amp; \
+<pre><code class="language-console">kubectl get validatingwebhookconfigurations.admissionregistration.k8s.io -l &quot;kubewarden&quot;
+
 kubectl get mutatingwebhookconfigurations.admissionregistration.k8s.io -l &quot;kubewarden&quot;
 </code></pre>
-<p>If these resources are not automatically removed, you can do
-remove them manually by using the following command:</p>
-<pre><code class="language-shell">kubectl delete -l &quot;kubewarden&quot; validatingwebhookconfigurations.admissionregistration.k8s.io &amp;&amp; \
+<p>If these resources are not automatically removed, you can remove them manually by using the following command:</p>
+<pre><code class="language-console">kubectl delete -l &quot;kubewarden&quot; validatingwebhookconfigurations.admissionregistration.k8s.io
+
 kubectl delete -l &quot;kubewarden&quot; mutatingwebhookconfigurations.admissionregistration.k8s.io
 </code></pre>
 <h2 id="wrapping-up"><a class="header" href="#wrapping-up">Wrapping up</a></h2>
-<p>As we have seen, the <code>ClusterAdmissionPolicy</code> resource is the core type that
-a cluster operator has to manage, the rest of the resources needed to
-run the policies and configure them will be taken care of
-automatically by the <code>kubewarden-controller</code> project.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="architecture"><a class="header" href="#architecture">Architecture</a></h1>
+<p>As we have seen, <code>ClusterAdmissionPolicy</code> is the core resource that a cluster operator has to manage. The <code>kubewarden-controller</code> module automatically takes care of the configuration for the rest of the resources needed to run the policies.</p>
+<p>Now, you are ready to deploy Kubewarden! Have a look at the policies on <a href="https://hub.kubewarden.io">hub.kubewarden.io</a>, <a href="https://github.com/topics/kubewarden-policy">on Github</a>, or reuse existing Rego policies as shown in the <a href="./writing-policies/rego/01-intro.html">following chapters!</a></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="common-tasks"><a class="header" href="#common-tasks">Common Tasks</a></h1>
+<p>This page lists a set of tasks that can be performed after you <a href="/quick-start.html#install">install Kubewarden</a> in your Kubernetes cluster.</p>
+<p>Each task can be done separately; however, if you're not familiar with Kubewarden, or Kubernetes policies in general, we recommend that you follow the tasks below in sequential order.</p>
+<h2 id="test-policies"><a class="header" href="#test-policies">Test Policies</a></h2>
+<p>Kubewarden has two main tools to help you find policies and test them locally:</p>
+<ul>
+<li><a href="https://hub.kubewarden.io/">Kubewarden Policy Hub</a></li>
+<li><a href="https://github.com/kubewarden/kwctl"><code>kwctl</code></a> CLI tool</li>
+</ul>
+<h3 id="kubewarden-policy-hub"><a class="header" href="#kubewarden-policy-hub">Kubewarden Policy Hub</a></h3>
+<p>The Kubewarden Policy Hub hosts policies contributed by the community. For example, you can find substitutes to the <a href="https://kubernetes.io/blog/2021/04/06/podsecuritypolicy-deprecation-past-present-and-future/">deprecated Kubernetes Pod Security Policies</a>, created by the Kubewarden developers. </p>
+<p>As shown in the picture below, once you find the policy to be tested, you can copy the registry path<sup>1</sup> or download<sup>2</sup> the <code>Wasm</code> binary containing the policy and additional metadata:</p>
+<p><img src="/images/tasks-policy-hub.png" alt="Kubewarden Policy Hub" /></p>
+<p>Once you have the policy <code>Wasm</code> binary or the registry path, you can test it with <code>kwctl</code>.</p>
+<h3 id="kwctl-cli-tool"><a class="header" href="#kwctl-cli-tool"><code>kwctl</code> CLI tool</a></h3>
+<p><code>kwctl</code> is a Command Line Interface (CLI) tool that will allow both the policy authors and the cluster administrators to test policies before they are applied to the Kubernetes cluster.</p>
+<p>The user experience (UX) of this tool is intended to be easy and intuitive like the <code>docker</code> CLI tool. </p>
+<h4 id="use-cases"><a class="header" href="#use-cases">Use cases</a></h4>
+<p>Depending on your role, <code>kwctl</code> will help you in the following non-exhaustive scenarios:</p>
+<p><em>As a policy author</em></p>
+<ul>
+<li><em>End-to-end testing of your policy</em>: Test your policy against crafted Kubernetes requests and ensure your policy behaves as you expect. You can even test context-aware policies that require access to a running cluster.</li>
+<li><em>Embed metadata in your Wasm module</em>: the binary contains annotations of the permissions it needs to be executed</li>
+<li><em>Publish policies to OCI registries</em>: The binary is a fully compliant OCI object and can be stored in OCI registries.</li>
+</ul>
+<p><em>As a cluster administrator</em></p>
+<ul>
+<li><em>Inspect remote policies</em>: Given a policy in an OCI registry or in an HTTP server, show all static information about the policy.</li>
+<li><em>Dry-run of a policy in your cluster</em>: Test the policy against crafted Kubernetes requests and ensure the policy behaves as you expect given the input data you provide. You can even test context-aware policies that require access to a running cluster, also in a dry-run mode.</li>
+<li><em>Generate initial <code>ClusterAdmissionPolicy</code> scaffolding for your policy</em>: Generate a <code>YAML</code> file with all the required settings, which can be applied to your Kubernetes cluster using <code>kubectl</code>.</li>
+</ul>
+<h4 id="installation-1"><a class="header" href="#installation-1">Installation</a></h4>
+<p><code>kwctl</code> binaries for the stable releases are directly available from the <a href="https://github.com/kubewarden/kwctl/releases">GitHub repository</a>.</p>
+<blockquote>
+<p><strong>NOTE</strong>: If you want to build <code>kwctl</code> from the development branch, you need to install <a href="https://www.rust-lang.org/tools/install">Rust</a>. And for building <code>kwctl</code>, please refer to the <code>Build kwctl from source</code> section in the <a href="https://github.com/kubewarden/kwctl">GitHub repo</a>.</p>
+</blockquote>
+<h4 id="usage"><a class="header" href="#usage">Usage</a></h4>
+<p>As stated above, <code>kwctl</code> will allow you to perform an end-to-end testing of the policies.</p>
+<p>You can list all the <code>kwctl</code> options and subcommands by running the following command:</p>
+<pre><code class="language-shell">$ kwctl --help
+kwctl 0.2.4
+Flavio Castelli &lt;fcastelli@suse.com&gt;:Rafael Fernández López &lt;rfernandezlopez@suse.com&gt;
+Tool to manage Kubewarden policies
+
+USAGE:
+    kwctl [FLAGS] &lt;SUBCOMMAND&gt;
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+    -v               Increase verbosity
+
+SUBCOMMANDS:
+    annotate       Adds Kubewarden metadata to a WebAssembly module
+    completions    Generates shell completions
+    help           Prints this message or the help of the given subcommand(s)
+    inspect        Inspects Kubewarden policy
+    manifest       Scaffolds a Kubernetes resource
+    policies       Lists all downloaded policies
+    pull           Pulls a Kubewarden policy from a given URI
+    push           Pushes a Kubewarden policy to an OCI registry
+    rm             Removes a Kubewarden policy from the store
+    run            Runs a Kubewarden policy from a given URI
+    verify         Verifies a Kubewarden policy from a given URI using Sigstore
+</code></pre>
+<p>Here are a few examples of the commands you should run, depending on the task you want to perform:</p>
+<ul>
+<li>
+<p><em>List the policies</em>: lists all the policies stored in the local <code>kwctl</code> registry</p>
+<ul>
+<li>Command: <code>kwctl policies</code></li>
+</ul>
+</li>
+<li>
+<p><em>Obtain the policy</em>: download and store the policy inside the local <code>kwctl</code> store</p>
+<ul>
+<li>Command: <code>kwctl pull &lt;policy URI&gt;</code></li>
+<li>Example:</li>
+</ul>
+<pre><code class="language-shell">$ kwctl pull registry://ghcr.io/kubewarden/policies/pod-privileged:v0.1.9
+
+$ kwctl policies
++--------------------------------------------------------------+----------+---------------+--------------+----------+
+| Policy                                                       | Mutating | Context aware | SHA-256      | Size     |
++--------------------------------------------------------------+----------+---------------+--------------+----------+
+| registry://ghcr.io/kubewarden/policies/pod-privileged:v0.1.9 | no       | no            | 59e34f482b40 | 21.86 kB |
++--------------------------------------------------------------+----------+---------------+--------------+----------+
+</code></pre>
+</li>
+<li>
+<p><em>Understand how the policy works</em>: inspect the policy metadata</p>
+<ul>
+<li>Command: <code>kwctl inspect &lt;policy URI&gt;</code></li>
+<li>Example:</li>
+</ul>
+<pre><code class="language-shell">  $ kwctl inspect registry://ghcr.io/kubewarden/policies/pod-privileged:v0.1.9
+  Details
+  title:              pod-privileged
+  description:        Limit the ability to create privileged containers
+  author:             Flavio Castelli
+  url:                https://github.com/kubewarden/pod-privileged-policy
+  source:             https://github.com/kubewarden/pod-privileged-policy
+  license:            Apache-2.0
+  mutating:           false
+  context aware:      false
+  execution mode:     kubewarden-wapc
+  protocol version:   1
+  
+  Annotations
+  io.kubewarden.kwctl 0.1.9
+  
+  Rules
+  ────────────────────
+  ---
+  - apiGroups:
+      - &quot;&quot;
+    apiVersions:
+      - v1
+    resources:
+      - pods
+    operations:
+      - CREATE
+  ────────────────────
+  
+  Usage
+  This policy doesn't have a configuration. Once enforced, it will reject
+  the creation of Pods that have at least a privileged container defined.
+</code></pre>
+</li>
+<li>
+<p><em>Evaluate the policy</em>: Assess the policy and, if available, find the right configuration values to match your requirements.</p>
+<blockquote>
+<p>NOTE: Familiarity with <a href="https://kubernetes.io/docs/reference/">Kubernetes REST APIs</a> is a prerequisite.</p>
+</blockquote>
+<ul>
+<li>
+<p>Command: <code>kwctl run -r &lt;&quot;Kubernetes Admission request&quot; file path&gt; -s &lt;&quot;JSON document&quot; file path&gt; &lt;policy URI&gt;</code></p>
+</li>
+<li>
+<p>Scenario 1:</p>
+<ul>
+<li>
+<p>Request to be evaluated: Create a pod with no 'privileged' container</p>
+</li>
+<li>
+<p>Example:</p>
+<pre><code class="language-shell">$ kwctl run registry://ghcr.io/kubewarden/policies/pod-privileged:v0.1.9 -r unprivileged-pod-request.json
+{&quot;uid&quot;:&quot;C6E115F4-A789-49F8-B0C9-7F84C5961FDE&quot;,&quot;allowed&quot;:true,&quot;status&quot;:{&quot;message&quot;:&quot;&quot;}}
+</code></pre>
+<ul>
+<li>
+<p>Equivalent command with the policy binary downloaded:</p>
+<pre><code class="language-shell">`$ kwctl run file://$PWD/pod-privileged-policy.wasm -r unprivileged-pod-request.json
+{&quot;uid&quot;:&quot;C6E115F4-A789-49F8-B0C9-7F84C5961FDE&quot;,&quot;allowed&quot;:true,&quot;status&quot;:{&quot;message&quot;:&quot;&quot;}}
+</code></pre>
+</li>
+</ul>
+</li>
+<li>
+<p>Result: The policy allows the request</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Scenario 2:</p>
+<ul>
+<li>
+<p>Request to be evaluated: Create a pod with at least one 'privileged' container</p>
+</li>
+<li>
+<p>Command: </p>
+<pre><code>kwctl run registry://ghcr.io/kubewarden/policies/pod-privileged:v0.1.9 -r privileged-pod-request.json
+</code></pre>
+<ul>
+<li>Equivalent command with the policy binary downloaded: <code>kwctl run file://$PWD/pod-privileged-policy.wasm -r privileged-pod-request.json</code></li>
+</ul>
+</li>
+<li>
+<p>Output:</p>
+<pre><code class="language-json">{&quot;uid&quot;:&quot;8EE6AF8C-C8C8-45B0-9A86-CB52A70EC50D&quot;,&quot;allowed&quot;:false,&quot;status&quot;:{&quot;message&quot;:&quot;User 'kubernetes-admin' cannot schedule privileged containers&quot;}}
+</code></pre>
+</li>
+<li>
+<p>Result: The policy denies the request</p>
+</li>
+</ul>
+<blockquote>
+<p><strong>NOTE</strong>: If you want to see a more complex example, you can read the Kubewarden blog post <a href="https://www.kubewarden.io/blog/2021/06/kwctl-intro-for-kubernetes-administrators/">Introducing <code>kwctl</code> to Kubernetes Administrators</a>.</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="enforce-policies"><a class="header" href="#enforce-policies">Enforce Policies</a></h2>
+<p>As described in the <a href="/quick-start.html#example-enforce-your-first-policy">Quick Start</a>, you can enforce a policy by defining a <code>ClusterAdmissionPolicy</code> and then deploy it to your cluster using <code>kubectl</code>.</p>
+<p><code>kwctl</code> will help to generate a <code>ClusterAdmissionPolicy</code> from the policy you want to enforce. </p>
+<p>After you have generated the <code>ClusterAdmissionPolicy</code> and applied it to your Kubernetes cluster, you can follow the steps described in the <a href="/quick-start.html#example-enforce-your-first-policy">Quick Start</a> below:</p>
+<ul>
+<li>
+<p>Generate the <code>ClusterAdmissionPolicy</code> from the policy <code>manifest</code> and save it to a file</p>
+<ul>
+<li>Command: <code>kwctl manifest -t ClusterAdmissionPolicy &lt;policy URI&gt; &gt; &lt;&quot;policy name&quot;.yaml&gt;</code></li>
+<li>Example:</li>
+</ul>
+<pre><code class="language-shell">$ kwctl manifest -t ClusterAdmissionPolicy registry://ghcr.io/kubewarden/policies/pod-privileged:v0.1.9
+---
+apiVersion: policies.kubewarden.io/v1alpha2
+kind: ClusterAdmissionPolicy
+metadata:
+  name: privileged-pods
+spec:
+  module: &quot;registry://ghcr.io/kubewarden/policies/pod-privileged:v0.1.9&quot;
+  settings: {}
+  rules:
+    - apiGroups:
+        - &quot;&quot;
+      apiVersions:
+        - v1
+      resources:
+        - pods
+      operations:
+        - CREATE
+  mutating: false
+</code></pre>
+<blockquote>
+<p>TIP: By default, the <code>name</code> value is set to <code>generated-policy</code>. You might want to edit it before you deploy the <code>ClusterAdmissionPolicy</code>. </p>
+<p>NOTE: To avoid confusion, the value above has been set to <code>privileged-pods</code>.</p>
+</blockquote>
+</li>
+<li>
+<p>Deploy the <code>ClusterAdmissionPolicy</code> to your Kubernetes cluster</p>
+<ul>
+<li>Command: <code>kubectl apply -f &lt;&quot;policy name&quot;.yaml&gt;</code></li>
+<li>Example:</li>
+</ul>
+<pre><code class="language-shell">$ kubectl apply -f pod-privileged-policy.yaml
+clusteradmissionpolicy.policies.kubewarden.io/privileged-pods created
+</code></pre>
+</li>
+</ul>
+<p>Once the <code>ClusterAdmissionPolicy</code> is deployed, the requests sent to your Kubernetes cluster will be evaluated by the policy if they're within the policy scope.</p>
+<h2 id="next-steps"><a class="header" href="#next-steps">Next steps</a></h2>
+<h3 id="write-policies"><a class="header" href="#write-policies">Write Policies</a></h3>
+<p>The <a href="/writing-policies/">Writing Policies</a> section explains how to write policies in different languages and how to export them into Webassembly so that they can be interpreted by Kubewarden.</p>
+<h3 id="distribute-policies"><a class="header" href="#distribute-policies">Distribute Policies</a></h3>
+<p>The <a href="/distributing-policies/">Distributing Policies</a> section explains how to publish policies to <a href="https://github.com/opencontainers/distribution-spec/blob/main/spec.md">OCI registries</a>.</p>
+<div style="break-before: page; page-break-before: always;"></div><h3 id="mutating-policies"><a class="header" href="#mutating-policies">Mutating policies</a></h3>
+<p>A mutating policy will rebuild the requests with definied values that are conformant with the policy definition. If you want allow the behavior of mutating requests, you need to set the <code>ClusterAdmissionPolicy.mutating</code> filed to <code>true</code>.</p>
+<p>However, if you set the <code>ClusterAdmissionPolicy.mutating</code> field to <code>false</code>, the mutated requests will be rejected. For example, create the following <code>ClusterAdmissionPolicy</code> with the <code>mutating</code> field set to <code>true</code>:</p>
+<pre><code class="language-bash"># Command
+kubectl apply -f - &lt;&lt;EOF
+apiVersion: policies.kubewarden.io/v1alpha2
+kind: ClusterAdmissionPolicy
+metadata:
+  name: psp-user-group
+spec:
+  module: &quot;registry://ghcr.io/kubewarden/policies/user-group-psp:v0.1.5&quot;
+  rules:
+  - apiGroups: [&quot;&quot;]
+    apiVersions: [&quot;v1&quot;]
+    resources: [&quot;pods&quot;]
+    operations:
+    - CREATE
+    - UPDATE
+  mutating: true
+  settings:
+    run_as_user:
+      rule: &quot;MustRunAs&quot;
+      ranges:
+        - min: 1000
+          max: 2000
+        - min: 3000
+          max: 4000
+    run_as_group:
+      rule: &quot;RunAsAny&quot;
+    supplemental_groups:
+      rule: &quot;RunAsAny&quot; 
+EOF
+
+# Output
+clusteradmissionpolicy.policies.kubewarden.io/psp-user-group created
+</code></pre>
+<p>The <a href="https://github.com/kubewarden/user-group-psp-policy"><code>psp-user-group</code></a> policy is used to control users and groups in containers and can mutate the requests. In the example above, the <code>runAsUser</code> field is set and it will be added to the container <code>securityContext</code> section. </p>
+<p>As the <code>mutating</code> field is set to <code>true</code>, the following request will be applied successfully:</p>
+<pre><code class="language-bash"># Command
+kubectl apply -f - &lt;&lt;EOF
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pause-user-group
+spec:
+  containers:
+    - name: pause
+      image: k8s.gcr.io/pause
+EOF
+
+# Output
+pod/pause-user-group created
+</code></pre>
+<p>Once the request is applied, you can see the results of the container's <code>securityContext</code>:</p>
+<pre><code class="language-bash"># Command
+kubectl get pods pause-user-group -o jsonpath='{ .spec.containers[].securityContext }'
+
+# Output
+{&quot;runAsUser&quot;:1000}
+</code></pre>
+<p>Now, modify the <code>ClusterAdmissionPolicy</code> by setting the field <code>mutating</code> to <code>false</code>:</p>
+<pre><code class="language-bash"># Command
+kubectl apply -f - &lt;&lt;EOF
+apiVersion: policies.kubewarden.io/v1alpha2
+kind: ClusterAdmissionPolicy
+metadata:
+  name: psp-user-group
+spec:
+  module: &quot;registry://ghcr.io/kubewarden/policies/user-group-psp:v0.1.5&quot;
+  rules:
+  - apiGroups: [&quot;&quot;]
+    apiVersions: [&quot;v1&quot;]
+    resources: [&quot;pods&quot;]
+    operations:
+    - CREATE
+    - UPDATE
+  mutating: false
+  settings:
+    run_as_user:
+      rule: &quot;MustRunAs&quot;
+      ranges:
+        - min: 1000
+          max: 2000
+        - min: 3000
+          max: 4000
+    run_as_group:
+      rule: &quot;RunAsAny&quot;
+    supplemental_groups:
+      rule: &quot;RunAsAny&quot; 
+EOF
+
+# Output
+clusteradmissionpolicy.policies.kubewarden.io/psp-user-group configured
+</code></pre>
+<p>As the <code>mutating</code> field is set to <code>false</code>, the following request will fail:</p>
+<pre><code class="language-bash"># Command
+kubectl apply -f - &lt;&lt;EOF
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pause-user-group
+spec:
+  containers:
+    - name: pause
+      image: k8s.gcr.io/pause
+EOF
+
+# Output
+Error from server: error when creating &quot;.\\pause-user-group.yaml&quot;: admission webhook &quot;psp-user-group.kubewarden.admission&quot; denied the request: Request rejected by policy psp-user-group. The policy attempted to mutate the request, but it is currently configured to not allow mutations.
+</code></pre>
+<p>As a conclusion, you can see that Kubewarden allows you to replicate the exact same behavior as the deprecated Kubernetes Pod Security Polices (PSP).</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="architecture"><a class="header" href="#architecture">Architecture</a></h1>
 <p>Kubewarden is a Kubernetes policy engine that uses policies written using
 WebAssembly.</p>
 <p>The Kubewarden stack is made by the following components:</p>
@@ -580,7 +926,7 @@ multiple times, just with different configuration parameters.</p>
 that are kept in sync by <code>kubewarden-controller</code>.</p>
 <p>Finally, the incoming admission requests are then dispatched by the Kubernetes
 API server to the right validation endpoint exposed by <code>policy-server</code>.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="what-is-a-kubewarden-policy"><a class="header" href="#what-is-a-kubewarden-policy">What is a Kubewarden policy</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="what-is-a-kubewarden-policy"><a class="header" href="#what-is-a-kubewarden-policy">What is a Kubewarden policy</a></h1>
 <p>In this section we will explain what Kubewarden policies are by using some traditional computing
 analogies.</p>
 <p>A Kubewarden policy can be seen as a regular program that does one job: it receives
@@ -619,7 +965,7 @@ provides a bi-directional communication channel.</p>
 <p>Because of that your programming language of choice must provide a waPC guest SDK.
 If that's not the case, feel free to reach out. We can help you overcome this
 limitation.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="policy-communication-specification"><a class="header" href="#policy-communication-specification">Policy communication specification</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="policy-communication-specification"><a class="header" href="#policy-communication-specification">Policy communication specification</a></h1>
 <p>The policy evaluator interacts with Kubewarden policies using a well
 defined API.  The purpose of this section is to document the API used
 by the host ( be it <code>policy-server</code> or <code>kwctl</code>) to communicate with
@@ -629,7 +975,7 @@ Kubewarden's policies.</p>
 jump straight to one of the &quot;language focused&quot; chapters and come back to this
 chapter later.</p>
 </blockquote>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="policy-settings"><a class="header" href="#policy-settings">Policy settings</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="policy-settings"><a class="header" href="#policy-settings">Policy settings</a></h1>
 <p>Policy behaviour is not set in stone, it can be configured by providing configuration
 details to the policy at runtime. The policy author has full freedom to define
 the structure of the policy settings.</p>
@@ -721,7 +1067,7 @@ the following API:</p>
     </tr>
   </tbody>
 </table>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="validating-policies"><a class="header" href="#validating-policies">Validating policies</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="validating-policies"><a class="header" href="#validating-policies">Validating policies</a></h1>
 <p>The Kubewarden policy server receives
 <a href="https://godoc.org/k8s.io/api/admission/v1#AdmissionReview"><code>AdmissionReview</code></a>
 objects from the Kubernetes API server. It then forwards the value of
@@ -978,7 +1324,7 @@ This is going to be covered inside of the next chapter.</p>
     </tr>
   </tbody>
 </table>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="mutating-policies"><a class="header" href="#mutating-policies">Mutating policies</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="mutating-policies-1"><a class="header" href="#mutating-policies-1">Mutating policies</a></h1>
 <p>Mutation policies are structured in the very same was as validating ones:</p>
 <ul>
 <li>They have to register a <code>validate</code> and a <code>validate_settings</code> waPC functions</li>
@@ -1160,7 +1506,7 @@ section of the only container declared inside of the Pod.</p>
     </tr>
   </tbody>
 </table>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="context-aware-policies"><a class="header" href="#context-aware-policies">Context aware policies</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="context-aware-policies"><a class="header" href="#context-aware-policies">Context aware policies</a></h1>
 <blockquote>
 <p><strong>NOTE:</strong> This feature is a work in progress, and not to be depended
 upon. Features described here are incomplete and subject to change
@@ -1257,14 +1603,14 @@ information from the Kubernetes API server.</p>
 to generalize what resources can be fetched from the cluster, to
 include all built-in Kubernetes types, as well as custom resources.</p>
 </blockquote>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="rust"><a class="header" href="#rust">Rust</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="rust"><a class="header" href="#rust">Rust</a></h1>
 <p><a href="https://www.rust-lang.org/">Rust</a> is the most mature programming language that
 can generate WebAssembly modules: WebAssembly is a first-class citizen
 in the Rust world. That means many of the tools and crates of the Rust
 ecosystem work out of the box.</p>
 <p>Kubewarden provides a <a href="https://crates.io/crates/kubewarden-policy-sdk">Rust SDK</a>
 that simplifies the process of writing policies, plus a
-<a href="https://github.com/kubewarden/policy-rust-template">template project</a> to
+<a href="https://github.com/kubewarden/rust-policy-template">template project</a> to
 quickly scaffold a policy project using the
 <a href="https://github.com/cargo-generate/cargo-generate"><code>cargo-generate</code></a> utility.</p>
 <p>This document illustrates how to take advantage of these projects to write
@@ -1281,7 +1627,11 @@ using <a href="https://github.com/rust-lang/rustup">rustup</a>. Please follow
 <p>Once <code>rustup</code> is installed add the Wasm target:</p>
 <pre><code class="language-shell">rustup target add wasm32-unknown-unknown
 </code></pre>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="creating-a-new-validation-policy"><a class="header" href="#creating-a-new-validation-policy">Creating a new validation policy</a></h1>
+<h2 id="osx-specific-dependencies"><a class="header" href="#osx-specific-dependencies">OSX specific dependencies</a></h2>
+<p>In order to use <code>cargo-generate</code> you will need to add the Xcode tool set. If it isn't installed through Xcode the following command will give you the dependencies needed:</p>
+<pre><code class="language-shell">xcode-select --install
+</code></pre>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="creating-a-new-validation-policy"><a class="header" href="#creating-a-new-validation-policy">Creating a new validation policy</a></h1>
 <p>We are going to create a simple validation policy that processes
 Pod creation requests.</p>
 <p>The policy will look at the <code>metadata.name</code> attribute of the Pod and reject
@@ -1314,13 +1664,13 @@ spec:
 </code></pre>
 <h2 id="scaffolding-new-policy-project"><a class="header" href="#scaffolding-new-policy-project">Scaffolding new policy project</a></h2>
 <p>The creation of a new policy project can be done by feeding this
-<a href="https://github.com/kubewarden/policy-rust-template">template project</a>
+<a href="https://github.com/kubewarden/rust-policy-template">template project</a>
 into <code>cargo generate</code>.</p>
 <p>First, install <code>cargo-generate</code>. Note, this requires <a href="https://pkgs.org/download/openssl-devel">openssl-devel</a>.</p>
 <pre><code>cargo install cargo-generate
 </code></pre>
 <p>Now scaffold the project as follows:</p>
-<pre><code class="language-shell">cargo generate --git https://github.com/kubewarden/policy-rust-template \
+<pre><code class="language-shell">cargo generate --git https://github.com/kubewarden/rust-policy-template \
                --branch main \
                --name demo
 </code></pre>
@@ -1332,7 +1682,7 @@ into <code>cargo generate</code>.</p>
 <p>Note: if you plan to make use of the GitHub container registry
 functionality in the demo, you will need to
 <a href="https://docs.github.com/en/packages/working-with-a-github-packages-registry/enabling-improved-container-support-with-the-container-registry#enabling-the-container-registry-for-your-personal-account">enable improved container support</a>.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="defining-policy-settings"><a class="header" href="#defining-policy-settings">Defining policy settings</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="defining-policy-settings"><a class="header" href="#defining-policy-settings">Defining policy settings</a></h1>
 <p>As a first step we will define the structure that holds the policy settings.</p>
 <p>Open the <code>src/settings.rs</code> file and change the definition of the <code>Settings</code>
 struct to look like that:</p>
@@ -1408,7 +1758,7 @@ test settings::tests::reject_settings_without_a_list_of_invalid_names ... ok
 
 test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
 </code></pre>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="writing-the-validation-logic"><a class="header" href="#writing-the-validation-logic">Writing the validation logic</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="writing-the-validation-logic"><a class="header" href="#writing-the-validation-logic">Writing the validation logic</a></h1>
 <p>It's time to write the actual validation code. This is defined inside of the
 <code>src/lib.rs</code> file. Inside of this file you will find a function called <code>validate</code>.</p>
 <p>The scaffolded function is already doing something:</p>
@@ -1595,7 +1945,7 @@ test tests::reject_pod_with_invalid_name ... ok
 test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
 </code></pre>
 <p>That's all if you want to write a simple validating policy.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="creating-a-new-mutation-policy"><a class="header" href="#creating-a-new-mutation-policy">Creating a new mutation policy</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="creating-a-new-mutation-policy"><a class="header" href="#creating-a-new-mutation-policy">Creating a new mutation policy</a></h1>
 <p>Mutating policies are similar to validating ones, but have also the ability to mutate an
 incoming object.</p>
 <p>They can:</p>
@@ -1773,7 +2123,7 @@ test tests::accept_pod_with_valid_name ... ok
 test result: ok. 5 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
 </code></pre>
 <p>As you can see the creation of a mutation policy is pretty straightforward.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="logging"><a class="header" href="#logging">Logging</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="logging"><a class="header" href="#logging">Logging</a></h1>
 <p>You can perform logging in your policy, so the <code>policy-server</code> or <code>kwctl</code> will forward those log
 entries with the appropriate information.</p>
 <p>The logging library chosen for the Rust SDK is <a href="https://github.com/slog-rs/slog"><code>slog</code></a>, as it is a
@@ -1818,7 +2168,7 @@ policy evaluator will log this information, adding more contextual information i
 as the Kubernetes request <code>uid</code>.</p>
 <p>More information about the <a href="https://docs.rs/slog/2.7.0/slog/macro.log.html">logging macros</a> offered
 by slog can be found inside of <a href="https://docs.rs/slog/2.7.0/slog/index.html">its documentation</a>.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h2 id="building-the-policy"><a class="header" href="#building-the-policy">Building the policy</a></h2>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="building-the-policy"><a class="header" href="#building-the-policy">Building the policy</a></h2>
 <p>So far we have built the policy using as a compilation target the same operating
 system and architecture of our development machine.</p>
 <p>It's now time to build the policy as a WebAssembly binary, also known as <code>.wasm</code>
@@ -1848,7 +2198,7 @@ into the main branch</li>
 <li>Build the policy in <code>release</code> mode and push it to a OCI registry as an
 artifact</li>
 </ul>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="rego"><a class="header" href="#rego">Rego</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="rego"><a class="header" href="#rego">Rego</a></h1>
 <blockquote>
 <p><strong>Note well:</strong> Rego support has been introduced starting from these releases:</p>
 <ul>
@@ -1911,13 +2261,13 @@ currently persisted custom resources as well.</p>
 policies. Right now Kubewarden implements this functionality only for
 policies written with the Kubewarden SDK. We have plans to fill this
 gap, to allow Rego policies to be context-aware policies too.</p>
-<h3 id="mutating-policies-1"><a class="header" href="#mutating-policies-1">Mutating policies</a></h3>
+<h3 id="mutating-policies-2"><a class="header" href="#mutating-policies-2">Mutating policies</a></h3>
 <p>Gatekeeper has support for mutating policies, but Kubewarden has not
 yet implemented mutating policies with Gatekeeper compatibility. You
 can use policies that use the Kubewarden SDK to write mutating
 policies, but at the time of writing, you cannot run Gatekeeper
 mutating policies in Kubewarden yet.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="open-policy-agent-1"><a class="header" href="#open-policy-agent-1">Open Policy Agent</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="open-policy-agent-1"><a class="header" href="#open-policy-agent-1">Open Policy Agent</a></h1>
 <blockquote>
 <p><strong>Note well:</strong> Open Policy Agent support has been introduced starting from these releases:</p>
 <ul>
@@ -1943,7 +2293,7 @@ the official <code>opa</code> CLI tool.</p>
 <p>In terms of policy execution, you can read more about the <a href="writing-policies/rego/open-policy-agent/../02-builtin-support.html">Open Policy
 Agent built-in support that is implemented in
 Kubewarden</a>.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="create-a-new-policy"><a class="header" href="#create-a-new-policy">Create a new policy</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="create-a-new-policy"><a class="header" href="#create-a-new-policy">Create a new policy</a></h1>
 <p>Let's create a sample policy that will help us go through some
 important concepts. Let's start!</p>
 <blockquote>
@@ -2085,7 +2435,7 @@ with the <code>AdmissionReview</code> object, so we can inspect it quite easily.
 
 1 directory, 4 files
 </code></pre>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="build-and-run"><a class="header" href="#build-and-run">Build and run</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="build-and-run"><a class="header" href="#build-and-run">Build and run</a></h1>
 <p>In the previous section we have written our Rego policy. The structure
 looks as the following:</p>
 <pre><code>.
@@ -2164,7 +2514,7 @@ send to the policy to evaluate.</p>
 </code></pre>
 <p>In this case, the policy is rejecting the request, and giving a reason
 back to the API server that will be returned to the user or API consumer.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="distribute"><a class="header" href="#distribute">Distribute</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="distribute"><a class="header" href="#distribute">Distribute</a></h1>
 <p>We have written, built and run our Rego policy. Now it's time to
 distribute the policy.</p>
 <p>Policies have to be annotated in order for them to be executed in the
@@ -2251,7 +2601,7 @@ spec:
 </code></pre>
 <p>You can now use this <code>ClusterAdmissionPolicy</code> as a base to target the
 resources that you want, or deploy to Kubernetes as is.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="gatekeeper-1"><a class="header" href="#gatekeeper-1">Gatekeeper</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="gatekeeper-1"><a class="header" href="#gatekeeper-1">Gatekeeper</a></h1>
 <blockquote>
 <p><strong>Note well:</strong> Gatekeeper support has been introduced starting from these releases:</p>
 <ul>
@@ -2273,7 +2623,7 @@ Kubewarden.</p>
 <p>In terms of policy execution, you can read more about the <a href="writing-policies/rego/gatekeeper/../02-builtin-support.html">Open Policy
 Agent built-in support that is implemented in
 Kubewarden</a>.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="create-a-new-policy-1"><a class="header" href="#create-a-new-policy-1">Create a new policy</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="create-a-new-policy-1"><a class="header" href="#create-a-new-policy-1">Create a new policy</a></h1>
 <p>Let's implement the same policy that <a href="writing-policies/rego/gatekeeper/../open-policy-agent/02-create-policy.html">we wrote with Open Policy
 Agent</a>: a policy that
 rejects a resource if it's targeting the <code>default</code> namespace.</p>
@@ -2364,7 +2714,7 @@ this file <code>other-ns.json</code>. It has the following contents:</p>
 </code></pre>
 <p>As you can see, this simulates another pod creation request, this time
 under a namespace called <code>other</code>.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="build-and-run-1"><a class="header" href="#build-and-run-1">Build and run</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="build-and-run-1"><a class="header" href="#build-and-run-1">Build and run</a></h1>
 <p>Building and running the policy is done exactly the same way as a Rego
 policy targeting Open Policy Agent. The structure of our project is
 like:</p>
@@ -2424,7 +2774,7 @@ the wasm module from it:</p>
 }
 </code></pre>
 <p>As you can see, our Gatekeeper policy rejected this resource as expected.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="distribute-1"><a class="header" href="#distribute-1">Distribute</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="distribute-1"><a class="header" href="#distribute-1">Distribute</a></h1>
 <p>Policies have to be annotated for them to be pushed, and eventually
 executed by the Kubewarden <code>policy-server</code> in a Kubernetes cluster.</p>
 <p>Annotating and distributing our Gatekeeper policy is very similar to
@@ -2490,7 +2840,7 @@ spec:
 </code></pre>
 <p>We could now use this <code>ClusterAdmissionPolicy</code> resource to deploy our
 policy to a Kubernetes cluster.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="builtin-support"><a class="header" href="#builtin-support">Builtin support</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="builtin-support"><a class="header" href="#builtin-support">Builtin support</a></h1>
 <p>Building a policy for the <code>wasm</code> target is only half of the problem,
 it needs to be executed.</p>
 <p>The Open Policy Agent team has a dedicated page you can check in order
@@ -2518,7 +2868,7 @@ comment over there to prioritize our work.</p>
 the list of built-ins used by the policy will be inspected, and if any
 of the used built-ins is missing, the program will abort execution
 logging a fatal error reporting what are the missing built-ins.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><blockquote>
+<div style="break-before: page; page-break-before: always;"></div><blockquote>
 <p><strong>Note well:</strong> Go's support for WebAssembly is fast evolving. The contents
 of this page have been written during April 2021, hence they could be outdated.</p>
 </blockquote>
@@ -2581,7 +2931,7 @@ more information.</p>
 be solved once TinyGo <code>0.17.0</code> is released. In the meantime we will use the container image
 based on the development branch: <code>tinygo/tinygo-dev:latest</code>.</p>
 </blockquote>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="creating-a-new-validation-policy-1"><a class="header" href="#creating-a-new-validation-policy-1">Creating a new validation policy</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="creating-a-new-validation-policy-1"><a class="header" href="#creating-a-new-validation-policy-1">Creating a new validation policy</a></h1>
 <p>We are going to create a validation policy that validates the labels of generic Kubernetes
 objects.</p>
 <p>The policy will reject all the resources that use one or more labels on the deny list.
@@ -2638,7 +2988,7 @@ and follow GitHub's wizard.</p>
 of the <code>go.mod</code> file looks like that:</p>
 <pre><code class="language-go">module &lt;path to your repository&gt;
 </code></pre>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="defining-policy-settings-1"><a class="header" href="#defining-policy-settings-1">Defining policy settings</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="defining-policy-settings-1"><a class="header" href="#defining-policy-settings-1">Defining policy settings</a></h1>
 <p>As a first step we will define the structure that holds the policy settings.</p>
 <p>We will do that by adding this code inside of the <code>settings.go</code> file:</p>
 <pre><code class="language-go">import (
@@ -3038,7 +3388,7 @@ PASS
 ok  	command-line-arguments	0.001s
 </code></pre>
 <p>We can now move to implement the actual validation code.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="writing-the-validation-logic-1"><a class="header" href="#writing-the-validation-logic-1">Writing the validation logic</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="writing-the-validation-logic-1"><a class="header" href="#writing-the-validation-logic-1">Writing the validation logic</a></h1>
 <p>It's now time to write the actual validation logic. This is done
 inside of the <code>validate.go</code> file.</p>
 <p>The scaffolded policy has already a <code>validate</code> function, we will need to make
@@ -3359,7 +3709,7 @@ PASS
 ok  	github.com/kubewarden/safe-labels-policy	0.001s
 </code></pre>
 <p>We can now move to the next step, write some end-to-end tests.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="end-to-end-testing"><a class="header" href="#end-to-end-testing">End-to-end testing</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="end-to-end-testing"><a class="header" href="#end-to-end-testing">End-to-end testing</a></h1>
 <p>So far we have tested the policy using a set of Go unit tests. This section shows
 how we can write end-to-end test that run tests against the actual WebAssembly
 binary produced by TinyGo.</p>
@@ -3523,7 +3873,7 @@ bats e2e.bats
 
 7 tests, 0 failures
 </code></pre>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="logging-1"><a class="header" href="#logging-1">Logging</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="logging-1"><a class="header" href="#logging-1">Logging</a></h1>
 <p>The Go SDK integrates with the <a href="https://github.com/francoispqt/onelog"><code>onelog</code></a> project almost out
 of the box. The reasons why this library has been chosen are:</p>
 <ul>
@@ -3574,7 +3924,7 @@ information.</p>
 <p>The logging produced by the policy will be sent to the policy evaluator (<code>kwctl</code> or <code>policy-server</code>
 for example), and they will log on behalf of the policy using mechanisms that are easily pluggable
 to other components that enable distributed tracing, such as Jaeger.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="automations"><a class="header" href="#automations">Automations</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="automations"><a class="header" href="#automations">Automations</a></h1>
 <p>This section describes how we can use GitHub Actions to automate as many tasks
 as possible.</p>
 <p>The scaffolded project already includes all the GitHub actions you need.
@@ -3628,7 +3978,7 @@ include the following assets:</p>
 <li>Source code compressed as <code>zip</code> and <code>tar.gz</code></li>
 <li>A file named <code>policy.wasm</code> that is the actual WebAssembly policy</li>
 </ul>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="distribute-policy"><a class="header" href="#distribute-policy">Distribute policy</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="distribute-policy"><a class="header" href="#distribute-policy">Distribute policy</a></h1>
 <p>Congratulations for having made this far 🎉🎉🎉</p>
 <p>We hope you enjoyed the journey!</p>
 <p>In case you haven't realized, we actually created the
@@ -3641,7 +3991,7 @@ chapter.</p>
 <p>The topic of distributing policies is covered in depth inside of the
 <a href="writing-policies/go//distributing-policies.html">&quot;distributing policies&quot;</a>
 section of Kubewarden's documentation.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="swift"><a class="header" href="#swift">Swift</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="swift"><a class="header" href="#swift">Swift</a></h1>
 <p>As stated on the <a href="https://swift.org/">official website</a>:</p>
 <blockquote>
 <p>Swift is a general-purpose programming language built using a modern approach
@@ -3680,7 +4030,7 @@ policy <em>&quot;in production&quot;</em>:
 <h2 id="more-examples-1"><a class="header" href="#more-examples-1">More examples</a></h2>
 <p><a href="https://github.com/kubewarden/pod-runtime-class-policy">This GitHub repository</a>
 contains a Kubewarden Policy written in Swift.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="typescript"><a class="header" href="#typescript">TypeScript</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="typescript"><a class="header" href="#typescript">TypeScript</a></h1>
 <p>As stated on the <a href="https://www.typescriptlang.org/">official website</a>:</p>
 <blockquote>
 <p>TypeScript extends JavaScript by adding types.</p>
@@ -3710,7 +4060,7 @@ into the main branch</li>
 <li>Build the policy in <code>release</code> mode and push it to a OCI registry as an
 artifact</li>
 </ul>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="distributing-policies"><a class="header" href="#distributing-policies">Distributing Policies</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="distributing-policies"><a class="header" href="#distributing-policies">Distributing Policies</a></h1>
 <p>Kubewarden policies are Wasm binaries that are evaluated by the
 Kubewarden Policy Server.</p>
 <p>The Kubewarden policy server can load policies from these
@@ -3803,24 +4153,40 @@ you really want to push an unannotated policy you can use the
 <p>The policy can then be referenced from the Kubewarden Policy Server or
 <code>kwctl</code> as
 <code>registry://&lt;oci-registry&gt;/kubewarden-policies/palindromify-policy:v0.0.1</code>.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="custom-certificate-authorities"><a class="header" href="#custom-certificate-authorities">Custom Certificate Authorities</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="custom-certificate-authorities"><a class="header" href="#custom-certificate-authorities">Custom Certificate Authorities</a></h1>
 <p>Both <code>kwctl</code> and <code>policy-server</code> allow you to pull policies from OCI registries and HTTP servers, as well as pushing to OCI registries. In this process, by default, HTTPS is enforced with host TLS verification.</p>
 <p>The system CA store is used to validate the trusted chain of certificates presented by the OCI registry. In a regular Kubewarden installation, the <code>policy-server</code> will use the CA store shipped with its Linux container. In the client side, <code>kwctl</code> will use your operating system CA store.</p>
+<p>If you are using the <a href="https://github.com/kubewarden/kubewarden-controller">Kubewarden Controller</a>,
+you can configure the PolicyServer via their <code>spec</code> fields, as documented
+<a href="distributing-policies/../operator-manual/policy-servers/01-custom-cert-auths.html">here</a>.</p>
 <blockquote>
 <p><strong>Important</strong>: the default behavior of <code>kwctl</code> and <code>policy-server</code> is to enforce HTTPS with trusted certificates matching the system CA store. You can interact with registries using untrusted certificates or even without TLS, by using the <code>insecure_sources</code> setting. This approach is <strong>highly discouraged</strong> in environments closer to production.</p>
 </blockquote>
 <h2 id="the-sourcesyaml-file"><a class="header" href="#the-sourcesyaml-file">The <code>sources.yaml</code> file</a></h2>
 <p>The pull and push behavior of <code>kwctl</code> and <code>policy-server</code> can be tuned via the <code>sources.yaml</code> file.</p>
-<p>This file can be provided both to <code>kwctl</code> and the <code>policy-server</code> in the <code>--sources-path</code> argument. Its structure is as follows:</p>
+<p>This file can be provided both to <code>kwctl</code> and the <code>policy-server</code> in the <code>--sources-path</code> argument.
+<code>kwctl</code> will try to load the <code>sources.yaml</code> file from the following folders if the <code>--sources-path</code> argument is not provided:</p>
+<ul>
+<li>Linux <code>$HOME/.config/kubewarden/sources.yaml</code> </li>
+<li>Mac <code>$HOME/Library/Application Support/io.kubewarden.kubewarden/sources.yaml</code></li>
+<li>Windows <code>$HOME\AppData\Roaming\kubewarden\config\sources.yaml</code></li>
+</ul>
+<p>Its structure is as follows:</p>
 <pre><code class="language-yaml">insecure_sources:
   - &quot;registry-dev.example.com&quot;
   - &quot;registry-dev2.example.com:5500&quot;
 source_authorities:
   &quot;registry-pre.example.com&quot;:
-    - /opt/example.com/pki/ca-pre1-1.pem
-    - /opt/example.com/pki/ca-pre1-2.pem
+    - type: Path
+      path: /opt/example.com/pki/ca-pre1-1.pem
+    - type: Path
+      path: /opt/example.com/pki/ca-pre1-2.der
   &quot;registry-pre2.example.com:5500&quot;:
-    - /opt/example.com/pki/ca-pre2.pem
+    - type: Data
+      data: |
+            -----BEGIN CERTIFICATE-----
+            ca-pre2 PEM cert
+            -----END CERTIFICATE-----
 </code></pre>
 <p>This file can be provided in YAML or JSON format. All keys are optional, so the following are also valid <code>sources.yaml</code> files:</p>
 <pre><code class="language-yaml">insecure_sources: [&quot;dev.registry.example.com&quot;]
@@ -3828,7 +4194,10 @@ source_authorities:
 <p>As well as:</p>
 <pre><code class="language-json">{
     &quot;source_authorities&quot;: {
-        &quot;pre.registry.example.com:3000&quot;: [&quot;/some-certificate.pem&quot;]
+        &quot;host.k3d.internal:5000&quot;: [
+            {&quot;type&quot;: &quot;Data&quot;,&quot;data&quot;:&quot;pem cert 1&quot;},
+            {&quot;type&quot;: &quot;Data&quot;,&quot;data&quot;:&quot;pem cert 2&quot;}
+        ]
     }
 }
 </code></pre>
@@ -3850,10 +4219,60 @@ source_authorities:
 </ul>
 </li>
 </ul>
-<p>It is generally fine to use <code>insecure_sources</code> when using local registries or HTTP servers when developing locally, to avoid the certificate burden. However, this setting is <strong>completely discouraged</strong> as the environment is closer to production.</p>
+<p>It is generally fine to use <code>insecure_sources</code> when using local registries or
+HTTP servers when developing locally, to avoid the certificate burden. However,
+this setting is <strong>completely discouraged</strong> for environments closer to
+production.</p>
 <h3 id="source-authorities"><a class="header" href="#source-authorities">Source authorities</a></h3>
-<p>The source authorities is a map that contains the host and a list of CA certificates used to verify the identity of OCI registries and HTTPs servers.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="testing-policies"><a class="header" href="#testing-policies">Testing Policies</a></h1>
+<p>The <code>source_authorities</code> is a map that contains URIs and a list of CA
+certificates that form a certificate chain for that URI, used to verify the
+identity of OCI registries and HTTPs servers.</p>
+<p>These certificates can be encoded in PEM or DER format. Certificates in binary
+DER format can be provided as a path to a file containing the certificate,
+meanwhile certificates in PEM format can either by a path to the certificate
+file, or a string with the certificate contents. Both possibilities are
+specified via a <code>type</code> key:</p>
+<pre><code class="language-yaml">source_authorities:
+  &quot;registry-pre.example.com&quot;:
+    - type: Path
+      path: /opt/example.com/pki/ca-pre1-1.pem
+    - type: Path
+      path: /opt/example.com/pki/ca-pre1-2.der
+    - type: Data
+      data: |
+            -----BEGIN CERTIFICATE-----
+            ca-pre1-3 PEM cert
+            -----END CERTIFICATE-----
+  &quot;registry-pre2.example.com:5500&quot;:
+    - type: Path
+      path: /opt/example.com/pki/ca-pre2-1.der
+</code></pre>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="oci-registries-support"><a class="header" href="#oci-registries-support">OCI Registries support</a></h1>
+<blockquote>
+<p><strong>Note well</strong>: this is not an exhaustive list. If a registry you know or use is working correctly
+with Kubewarden, or if any information described here is not accurate at this time, please open a
+<a href="https://github.com/kubewarden/docs">Pull Request against this documentation</a> to fix it.</p>
+</blockquote>
+<p>Kubewarden policies are distributed as <a href="https://github.com/opencontainers/artifacts">OCI Artifacts</a>
+using regular OCI Registries.</p>
+<p>Policies are stored side by side with container images. They don't require any extra setup or
+maintenance than regular container images do.</p>
+<h2 id="projects"><a class="header" href="#projects">Projects</a></h2>
+<ul>
+<li><a href="https://github.com/distribution/distribution">Distribution</a></li>
+</ul>
+<h2 id="hosted-registries"><a class="header" href="#hosted-registries">Hosted registries</a></h2>
+<ul>
+<li><a href="https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry">GitHub container registry</a></li>
+</ul>
+<h2 id="known-issues"><a class="header" href="#known-issues">Known issues</a></h2>
+<h3 id="docker-hub"><a class="header" href="#docker-hub">Docker Hub</a></h3>
+<p>The Docker Hub does not support OCI artifacts at this time, and as such, it cannot be used to store
+Kubewarden policies.</p>
+<h3 id="jfrog"><a class="header" href="#jfrog">JFrog</a></h3>
+<p>Although JFrog supports OCI artifacts, it is only partially possible to push to it when following
+the specification. <a href="https://github.com/kubewarden/kwctl/issues/59">Read more here</a></p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="testing-policies"><a class="header" href="#testing-policies">Testing Policies</a></h1>
 <p>This section covers the topic of testing Kubewarden Policies. There are two possible
 personas interested in testing policies:</p>
 <ul>
@@ -3865,7 +4284,7 @@ inside of your CI/CD pipelines,...</li>
 </ul>
 <p>The next sections of the documentation will show how Kubewarden policies can
 be tested by these two personas.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="while-creating-a-policy"><a class="header" href="#while-creating-a-policy">While creating a policy</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="while-creating-a-policy"><a class="header" href="#while-creating-a-policy">While creating a policy</a></h1>
 <p>Kubewarden Policies are regular programs compiled as WebAssembly. As with any kind
 of program, it's important to have good test coverage.</p>
 <p>Policy authors can leverage the testing frameworks and tools of their language
@@ -3945,7 +4364,7 @@ and then invoke <code>bats</code> in this way:</p>
 <p>Checkout <a href="testing-policies//writing-policies/go/05-e2e-tests.html">this section</a>
 of the documentation to learn more about writing end-to-end
 tests of your policies.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="before-deployment"><a class="header" href="#before-deployment">Before deployment</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="before-deployment"><a class="header" href="#before-deployment">Before deployment</a></h1>
 <p>As a Kubernetes cluster operator you probably want to perform some tests
 against a Kubewarden policy you just found.</p>
 <p>You probably want to answer questions like:</p>
@@ -3975,7 +4394,7 @@ YAML file loaded from the filesystem via <code>--settings-path</code>.</li>
 </ol>
 <p>Once the policy evaluation is done, <code>kwctl</code> prints the
 <code>ValidationResponse</code> object to the standard output.</p>
-<h2 id="install-1"><a class="header" href="#install-1">Install</a></h2>
+<h2 id="install"><a class="header" href="#install">Install</a></h2>
 <p>You can download pre-built binaries of <code>kwctl</code> from
 <a href="https://github.com/kubewarden/kwctl/releases">here</a>.</p>
 <h2 id="quickstart"><a class="header" href="#quickstart">Quickstart</a></h2>
@@ -4190,24 +4609,78 @@ we can run the test in this way:</p>
 <p>Checkout <a href="testing-policies//writing-policies/go/05-e2e-tests.html">this section</a> of the
 documentation to learn more about writing end-to-end tests of your
 policies.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="operator-manual"><a class="header" href="#operator-manual">Operator Manual</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="operator-manual"><a class="header" href="#operator-manual">Operator Manual</a></h1>
 <p>This section covers topics related with the deployment and the operational
 aspects of Kubewarden.</p>
-<div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="tracing"><a class="header" href="#tracing">Tracing</a></h1>
-<p>This section illustrates how to enable tracing support of
-Policy Server.</p>
-<p>Tracing allows to collect fine grained details about policy evaluations. It can
-be a useful tool for debugging issues inside of your Kubewarden deployment and policies.</p>
-<h2 id="the-stack"><a class="header" href="#the-stack">The stack</a></h2>
-<p>We will use the following tools to enable tracing:</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="configuring-policyservers"><a class="header" href="#configuring-policyservers">Configuring PolicyServers</a></h1>
+<h2 id="custom-certificate-authorities-for-policy-registries"><a class="header" href="#custom-certificate-authorities-for-policy-registries">Custom Certificate Authorities for Policy registries</a></h2>
+<p>It is possible to specify and configure the Certificate Authorities that a
+PolicyServer uses when pulling the ClusterAdmissionPolicy artifacts from the
+policy registry. The following <code>spec</code> fields will configure the deployed
+<code>policy-server</code> executable to that effect.</p>
+<h3 id="insecure-sources-1"><a class="header" href="#insecure-sources-1">Insecure sources</a></h3>
+<blockquote>
+<p><strong>Important</strong>: the default behavior of <code>kwctl</code> and <code>policy-server</code> is to
+enforce HTTPS with trusted certificates matching the system CA store. You can
+interact with registries using untrusted certificates or even without TLS, by
+using the <code>insecure_sources</code> setting. This approach is <strong>highly discouraged</strong>
+for environments closer to production.</p>
+</blockquote>
+<p>To configure the PolicyServer to accept insecure connections to specific
+registries, use the <code>spec.insecureSources</code> field of PolicyServer. This field
+accepts a list of URIs to be regarded as insecure. Example:</p>
+<pre><code class="language-yaml">spec:
+  insecureSources:
+    - localhost:5000
+    - host.k3d.internal:5000
+</code></pre>
+<p>See <a href="operator-manual/policy-servers/../../distributing-policies/custom-certificate-authorities.html">here</a> for more
+information on how the <code>policy-server</code> executable treats them.</p>
+<h3 id="custom-certificate-authorities-1"><a class="header" href="#custom-certificate-authorities-1">Custom Certificate Authorities</a></h3>
+<p>To configure the PolicyServer with a custom certificate chain of 1 or more
+certificates for a specific URI, use the field <code>spec.sourceAuthorities</code>.</p>
+<p>This field is a map of URIs, each with its own list of strings that contain PEM
+encoded certificates. Example:</p>
+<pre><code class="language-yaml">spec:
+  sourceAuthorities:
+    &quot;registry-pre.example.com&quot;:
+      - |
+        -----BEGIN CERTIFICATE-----
+        ca-pre1-1 PEM cert
+        -----END CERTIFICATE-----
+      - |
+        -----BEGIN CERTIFICATE-----
+        ca-pre1-2 PEM cert
+        -----END CERTIFICATE-----
+    &quot;registry-pre2.example.com:5500&quot;:
+      - |
+        -----BEGIN CERTIFICATE-----
+        ca-pre2 PEM cert
+        -----END CERTIFICATE-----
+</code></pre>
+<p>See <a href="operator-manual/policy-servers//distributing-policies/custom-certificate-authorities.html">here</a> for more
+information on how the <code>policy-server</code> executable treats them.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="telemetry"><a class="header" href="#telemetry">Telemetry</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="opentelemetry"><a class="header" href="#opentelemetry">OpenTelemetry</a></h1>
+<p><a href="https://opentelemetry.io/">OpenTelemetry</a> is a Cloud Native Computing Foundation framework for
+observability. It enables your microservices to provide metrics, logs and traces.</p>
+<p>Kubewarden's components are instrumented with the OpenTelemetry SDK, reporting data to an
+OpenTelemetry collector -- called the agent.</p>
+<p>By following this documentation, we will integrate OpenTelemetry using the following architecture:</p>
 <ul>
-<li><a href="https://www.jaegertracing.io/">Jaeger</a>: it is used to receive, store
-and visualize trace events.</li>
-<li><a href="https://opentelemetry.io/">OpenTelemetry</a>: it is used to collect
-trace events originated by PolicyServer and forward them to Jaeger</li>
+<li>Each Pod of the Kubewarden stack will have a OpenTelemetry sidecar.</li>
+<li>The sidecar receives tracing and monitoring information from the Kubewarden component via the OpenTelemetry Protocol (OTLP)</li>
+<li>The OpenTelemetry collector will:
+<ul>
+<li>Send the trace events to a central Jaeger instance</li>
+<li>Expose Prometheus metrics on a specific port</li>
 </ul>
-<p>The OpenTelemetry collector will be deployed as a sidecar inside of each PolicyServer
-Pod.</p>
+</li>
+</ul>
+<p>For more information about the other deployment modes, please refer to the <a href="https://opentelemetry.io/docs/">OpenTelemetry official
+documentation</a>.</p>
+<p>Let's first deploy OpenTelemetry in a Kubernetes cluster, so we can reuse it in the next sections
+that will address specifically tracing and metrics.</p>
 <h2 id="setting-up-a-kubernetes-cluster"><a class="header" href="#setting-up-a-kubernetes-cluster">Setting up a Kubernetes cluster</a></h2>
 <blockquote>
 <p>This section gives step-by-step instructions to create a
@@ -4249,6 +4722,189 @@ following command:</p>
 🔎  Verifying ingress addon...
 🌟  The 'ingress' addon is enabled
 </code></pre>
+<h2 id="install-opentelemetry"><a class="header" href="#install-opentelemetry">Install OpenTelemetry</a></h2>
+<p>We are going to use the <a href="https://github.com/open-telemetry/opentelemetry-operator">OpenTelemetry Operator</a>
+to manage the automatic injection of the OpenTelemetry Collector sidecar
+inside of the PolicyServer pod.</p>
+<p>The OpenTelemetry Operator requires <a href="https://cert-manager.io/docs/installation/">cert-manager</a>
+to be installed inside of the cluster.</p>
+<p>This can be done with this command:</p>
+<pre><code class="language-console">kubectl apply -f https://github.com/jetstack/cert-manager/releases/download/v1.5.3/cert-manager.yaml
+kubectl wait --for=condition=Available deployment --timeout=2m -n cert-manager --all
+</code></pre>
+<p>Once cert-manager is up and running, the OpenTelemetry operator can be installed in this way:</p>
+<pre><code class="language-console">kubectl apply -f https://github.com/open-telemetry/opentelemetry-operator/releases/latest/download/opentelemetry-operator.yaml
+kubectl wait --for=condition=Available deployment --timeout=2m -n opentelemetry-operator-system --all
+</code></pre>
+<h2 id="opentelemetry-integration"><a class="header" href="#opentelemetry-integration">OpenTelemetry integration</a></h2>
+<p>We can now move to the next chapters of the book to enable application metrics (via Prometheus
+integration) and application tracing (via Jaeger integration).</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="metrics"><a class="header" href="#metrics">Metrics</a></h1>
+<p>This section describes how to enable metrics reporting on the Policy Server.</p>
+<blockquote>
+<p><strong>Note well</strong>: before continuing, make sure you completed the previous
+<a href="operator-manual/telemetry/metrics/../opentelemetry/01-quickstart.html#install-opentelemetry">OpenTelemetry</a> section of this book. It
+is required for this section to work correctly.</p>
+</blockquote>
+<p>We are going to use <a href="https://prometheus.io/">Prometheus</a> to scrape metrics exposed by the Policy
+Server.</p>
+<h2 id="install-prometheus"><a class="header" href="#install-prometheus">Install Prometheus</a></h2>
+<p>We will use the <a href="https://github.com/prometheus-operator/prometheus-operator">Prometheus Operator</a>,
+that allows us to intuitively define Prometheus' Targets.</p>
+<p>There are many ways to install and set up Prometheus. For ease of deployment, we will use the
+Prometheus community helm chart.</p>
+<p>Let's add the helm repository from the Prometheus Community:</p>
+<pre><code class="language-console">helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+</code></pre>
+<p>Now, let's install the
+<a href="https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack"><code>kube-prometheus-stack</code></a>
+chart. This chart contains a collection of Kubernetes manifests, Grafana dashboards, and Prometheus
+rules.</p>
+<p>Let's create a <code>kube-prometheus-stack-values.yaml</code> file to configure the <code>kube-prometheus-stack</code>
+Helm chart values with the following contents:</p>
+<pre><code class="language-yaml">prometheus:
+  additionalServiceMonitors:
+    - name: kubewarden
+      selector:
+        matchLabels:
+          app: kubewarden-policy-server-default
+      namespaceSelector:
+        matchNames:
+          - kubewarden
+      endpoints:
+        - port: metrics
+          interval: 10s
+</code></pre>
+<p>The <code>prometheus-operator</code> deployed as part of this Helm chart defines the concept of <a href="https://github.com/prometheus-operator/prometheus-operator/blob/master/Documentation/design.md#servicemonitor">Service
+Monitors</a>,
+used to declaratively define which services should be monitored by Prometheus.</p>
+<p>In our case, we are adding a Service monitor targeting the <code>kubewarden</code> namespace, for services that
+match labels <code>app=kubewarden-policy-server-default</code>. This way, the Prometheus Operator is able to
+inspect which Kubernetes Endpoints are tied to services matching this conditions. The operator will
+then take care of generating a valid configuration file for Prometheus, and reloading it
+automatically after updating its configuration file.</p>
+<pre><code class="language-console">helm install --wait --create-namespace --namespace prometheus --values kube-prometheus-stack-values.yaml prometheus prometheus-community/kube-prometheus-stack
+</code></pre>
+<h2 id="install-kubewarden"><a class="header" href="#install-kubewarden">Install Kubewarden</a></h2>
+<p>We can now install Kubewarden in the recommended way with the Helm chart.</p>
+<blockquote>
+<p><strong>Note well:</strong> cert-manager is a requirement of Kubewarden, and OpenTelemetry is required for this
+feature, but we've already installed them in a previous section of this book.</p>
+</blockquote>
+<p>As a first step, we have to add the Helm repository that contains Kubewarden:</p>
+<pre><code class="language-console">helm repo add kubewarden https://charts.kubewarden.io
+</code></pre>
+<p>Then we have to install the Custom Resource Definitions (CRDs) defined by
+Kubewarden:</p>
+<pre><code class="language-console">helm install --wait --namespace kubewarden --create-namespace kubewarden-crds kubewarden/kubewarden-crds
+</code></pre>
+<p>Now we can deploy the rest of the Kubewarden stack. The official helm
+chart will create a PolicyServer named <code>default</code>.</p>
+<p>Let's configure the values of the Helm Chart so that we have metrics enabled 
+in Kubewarden. Write the <code>kubewarden-values.yaml</code> file with the following contents:</p>
+<pre><code class="language-yaml">telemetry:
+  enabled: True
+policyServer:
+    metrics:
+      port: 8080
+</code></pre>
+<p>Now, let's install the helm chart:</p>
+<pre><code class="language-console">helm install --wait --namespace kubewarden --values kubewarden-values.yaml kubewarden-controller kubewarden/kubewarden-controller
+</code></pre>
+<p>This leads to the creation of the <code>default</code> instance of <code>PolicyServer</code>:</p>
+<pre><code class="language-console">kubectl get policyservers.policies.kubewarden.io
+NAME      AGE
+default   3m7s
+</code></pre>
+<p>By default, this policy server will have metrics enabled.</p>
+<h2 id="accessing-prometheus"><a class="header" href="#accessing-prometheus">Accessing Prometheus</a></h2>
+<p>Prometheus exposes a very simple UI that we can use to inspect metrics exposed by different
+components within our Kubernetes cluster.</p>
+<p>We can forward the Prometheus port so we can easily access it.</p>
+<pre><code class="language-console">kubectl port-forward -n prometheus --address 0.0.0.0 svc/prometheus-operated 9090
+</code></pre>
+<p>Now, we can visit prometheus through port <code>9090</code> and perform a query, for example:
+<code>kubewarden_policy_evaluations_total</code>. We will see that the number of evaluations will grow over
+time as we produce more requests that go through the policy.</p>
+<h2 id="accessing-grafana"><a class="header" href="#accessing-grafana">Accessing Grafana</a></h2>
+<p>We can forward the Grafana service so we can easily access it.</p>
+<pre><code class="language-console">kubectl port-forward -n prometheus --address 0.0.0.0 svc/prometheus-grafana 8080:80
+</code></pre>
+<p>You can now login with the default username <code>admin</code> and password <code>prom-operator</code>.</p>
+<h3 id="using-kubewarden-grafana-dashboard"><a class="header" href="#using-kubewarden-grafana-dashboard">Using Kubewarden Grafana dashboard</a></h3>
+<p>The Kubewarden developers made available a Grafana dashboard with some basic metrics
+that give an overview about how Kubewarden behaves inside of cluster. This dashboard
+is available in the Kubewarden repository in a <a href="https://raw.githubusercontent.com/kubewarden/policy-server/main/kubewarden-dashboard.json">JSON file</a> 
+or in the <a href="https://grafana.com/grafana/dashboards/15314">Grafana website</a>. </p>
+<p>To import the dashboard into your environment, you can download the JSON file
+from the Grafana website or from the repository:</p>
+<pre><code class="language-console">curl https://raw.githubusercontent.com/kubewarden/policy-server/main/kubewarden-dashboard.json
+</code></pre>
+<p>Once you have the file in your machine you should access the Grafana dashboard and
+<a href="https://grafana.com/docs/grafana/latest/dashboards/export-import/#import-dashboard">import it</a>.
+Visit <code>/dashboard/import</code> in the Grafana dashboard and follow these steps:</p>
+<ol>
+<li>Copy the JSON file contents and paste them into the <code>Import via panel json</code> box in the Grafana UI</li>
+<li>Click the <code>Load</code> button</li>
+<li>Choosing <code>Prometheus</code> as the source</li>
+<li>Click the <code>Import</code> button</li>
+</ol>
+<p>Another option is import it directly from the Grafana.com website. For this:</p>
+<ol>
+<li>Copy the dashboard ID from the <a href="https://grafana.com/grafana/dashboards/15314">dashboard page</a>, </li>
+<li>Paste it in the <code>Import via grafana.com</code> field</li>
+<li>Click the <code>load</code> button.</li>
+<li>After importing the dashboard, define the Prometheus data source to use and finish
+the import process. </li>
+</ol>
+<p>You should be able to see the dashboard similar to this:</p>
+<p><img src="operator-manual/telemetry/metrics/./images/grafana_dashboard_1.png/" alt="Dashboard 1" />
+<img src="operator-manual/telemetry/metrics/./images/grafana_dashboard_2.png/" alt="Dashboard 2" />
+<img src="operator-manual/telemetry/metrics/./images/grafana_dashboard_3.png/" alt="Dashboard 3" />
+<img src="operator-manual/telemetry/metrics/./images/grafana_dashboard_4.png/" alt="Dashboard 4" /></p>
+<p>The Grafana dashboard has panes showing the state of all 
+the policies managed by Kubewarden. Plus it has policy-specific panels.</p>
+<p>Policy detailed metrics can be obtained by changing the value of the <code>policy_name</code>
+variable to match the name of the desired policy.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="metrics-reference"><a class="header" href="#metrics-reference">Metrics Reference</a></h1>
+<p>Kubewarden exposes some relevant metrics that enhance visibility of the platform, and allows cluster
+administrators and policy developers to identify patterns and potential issues.</p>
+<h2 id="policy-server"><a class="header" href="#policy-server">Policy Server</a></h2>
+<p>The Policy Server is the component that initializes and runs policies. Upon receiving requests from
+the Kubernetes API server, it will forward the request to the policy, and return the response
+provided by the policy to the Kubernetes API server.</p>
+<h3 id="metrics-1"><a class="header" href="#metrics-1">Metrics</a></h3>
+<blockquote>
+<p><strong>Note</strong>: Baggage are key-value attributes added to the metric. They are used to enrich the metric
+with additional information.</p>
+</blockquote>
+<table><thead><tr><th>Name</th><th>Type</th><th></th></tr></thead><tbody>
+<tr><td><code>kubewarden_policy_evaluations_total</code></td><td>Counter</td><td><a href="operator-manual/telemetry/metrics/02-reference.html#kubewarden_policy_evaluations_total">Baggage</a></td></tr>
+</tbody></table>
+<h4 id="kubewarden_policy_evaluations_total"><a class="header" href="#kubewarden_policy_evaluations_total"><code>kubewarden_policy_evaluations_total</code></a></h4>
+<h5 id="baggage"><a class="header" href="#baggage">Baggage</a></h5>
+<table><thead><tr><th>Label</th><th>Description</th></tr></thead><tbody>
+<tr><td><code>policy_name</code></td><td>Name of the policy</td></tr>
+<tr><td><code>resource_name</code></td><td>Name of the evaluated resource</td></tr>
+<tr><td><code>resource_kind</code></td><td>Kind of the evaluated resource</td></tr>
+<tr><td><code>resource_namespace</code></td><td>Namespace of the evaluated resource. Not present if the resource is cluster scoped.</td></tr>
+<tr><td><code>resource_request_operation</code></td><td>Operation type: <code>CREATE</code>, <code>UPDATE</code>, <code>DELETE</code>, <code>PATCH</code>, <code>WATCH</code>...</td></tr>
+<tr><td><code>accepted</code></td><td>Whether the request was accepted or not</td></tr>
+<tr><td><code>mutated</code></td><td>Whether the request was mutated or not</td></tr>
+<tr><td><code>error_code</code></td><td>Error code returned by the policy in case of rejection, if any. Not present if the policy didn't provide one.</td></tr>
+</tbody></table>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="tracing"><a class="header" href="#tracing">Tracing</a></h1>
+<p>This section illustrates how to enable tracing support of
+Policy Server.</p>
+<blockquote>
+<p><strong>Note well</strong>: before continuing, make sure you completed the previous
+<a href="operator-manual/telemetry/tracing/../opentelemetry/01-quickstart.html#install-opentelemetry">OpenTelemetry</a> section of this book. It
+is required for this section to work correctly.</p>
+</blockquote>
+<p>Tracing allows to collect fine grained details about policy evaluations. It can
+be a useful tool for debugging issues inside of your Kubewarden deployment and policies.</p>
+<p>We will use <a href="https://www.jaegertracing.io/">Jaeger</a> -- used to receive, store and visualize trace
+events.</p>
 <h2 id="install-jaeger"><a class="header" href="#install-jaeger">Install Jaeger</a></h2>
 <p>We are going to use the <a href="https://github.com/jaegertracing/jaeger-operator">Jaeger Operator</a>
 to manage all the different Jaeger components.</p>
@@ -4278,7 +4934,7 @@ Check the jaeger-operator logs
   export POD=$(kubectl get pods -l app.kubernetes.io/instance=jaeger-operator -lapp.kubernetes.io/name=jaeger-operator --namespace jaeger --output name)
   kubectl logs $POD --namespace=jaeger
 </code></pre>
-<p>Given this is a testing environment, we will use default 
+<p>Given this is a testing environment, we will use default
 <a href="https://www.jaegertracing.io/docs/1.26/operator/#allinone-default-strategy">&quot;AllInOne&quot;</a>
 strategy. As stated on the upstream documentation: this deployment strategy is
 meant to be used only for development, testing and demo purposes.</p>
@@ -4304,83 +4960,18 @@ EOF
 Jaeger Query UI will be reachable at the following address:</p>
 <pre><code class="language-console">echo http://`minikube ip`
 </code></pre>
-<h2 id="install-opentelemetry"><a class="header" href="#install-opentelemetry">Install OpenTelemetry</a></h2>
-<p>We are going to use the <a href="https://github.com/open-telemetry/opentelemetry-operator">OpenTelemetry Operator</a>
-to manage the automatic injection of the OpenTelemetry Collector sidecar
-inside of the PolicyServer Deployment.</p>
-<p>The OpenTelemetry Operator requires <a href="https://cert-manager.io/docs/installation/">cert-manager</a>
-to be installed inside of the cluster.</p>
-<p>This can be done with this command:</p>
-<pre><code class="language-console">kubectl apply -f https://github.com/jetstack/cert-manager/releases/download/v1.5.3/cert-manager.yaml
-</code></pre>
-<p>We can wait for cert-manager to be ready in this way:</p>
-<pre><code class="language-console">kubectl wait --for=condition=Available deployment --timeout=2m -n cert-manager --all
-</code></pre>
-<p>Once cert-manager is up and running, the operator can be installed in this way:</p>
-<pre><code class="language-console">kubectl apply -f https://github.com/open-telemetry/opentelemetry-operator/releases/latest/download/opentelemetry-operator.yaml
-</code></pre>
-<p>Now we have to create a <a href="https://github.com/open-telemetry/opentelemetry-operator#sidecar-injection">OpenTelemetryCollector</a>
-resource inside of the Namespace where Kubewarden is going to be deployed.</p>
-<p>As a first step we have to create a <code>kubewarden</code> Namespace:</p>
-<pre><code class="language-console">kubectl create ns kubewarden
-</code></pre>
-<p>The OpenTelemetryCollector can be created in this way:</p>
-<pre><code class="language-console">kubectl apply -f - &lt;&lt;EOF
-apiVersion: opentelemetry.io/v1alpha1
-kind: OpenTelemetryCollector
-metadata:
-  name: sidecar-from-otel-to-jaeger
-  namespace: kubewarden
-spec:
-  mode: sidecar
-  config: |
-    receivers:
-      otlp:
-        protocols:
-          grpc:
-
-    processors:
-      batch:
-
-    exporters:
-      jaeger:
-        endpoint: &quot;all-in-one-collector.jaeger.svc.cluster.local:14250&quot;
-        insecure: true
-
-    service:
-      pipelines:
-        traces:
-          receivers: [otlp]
-          processors: [batch]
-          exporters: [jaeger]
-EOF
-</code></pre>
-<p>The OpenTelemetryCollector resource comes with a simple configuration:</p>
-<ul>
-<li>The collector receives incoming traces that are delivered using the
-OpenTelemetry format. The communication between the PolicyServer and
-the sidecar collector happens over gRPC.</li>
-<li>The collector will then export all the traces in batches. The traces will
-be sent to a Jaeger collector.</li>
-<li>The Jaeger collector is exposed via the internal Service that was created
-by the Jaeger Operator.</li>
-<li>The communication between the OpenTelemetry Collector and the Jaeger endpoint
-is not secured by TLS. We are fine with this limitation because this is
-just a demo environment.</li>
-</ul>
-<p>Everything is ready, we can now deploy Kubewarden.</p>
-<h2 id="install-kubewarden"><a class="header" href="#install-kubewarden">Install Kubewarden</a></h2>
+<h2 id="install-kubewarden-1"><a class="header" href="#install-kubewarden-1">Install Kubewarden</a></h2>
 <p>We can proceed to the deployment of Kubewarden in the usual way.</p>
 <blockquote>
-<p><strong>Note well:</strong> cert-manager is a requirement of Kubewarden, but we've already
-installed it before performing the deployment of the OpenTelemetry Operator.</p>
+<p><strong>Note well:</strong> cert-manager is a requirement of Kubewarden, and OpenTelemetry is required for this
+feature, but we've already installed them in a previous section of this book.</p>
 </blockquote>
 <p>As a first step, we have to add the Helm repository that contains Kubewarden:</p>
 <pre><code class="language-console">helm repo add kubewarden https://charts.kubewarden.io
 </code></pre>
 <p>Then we have to install the Custom Resource Definitions (CRDs) defined by
 Kubewarden:</p>
-<pre><code class="language-console">helm install --create-namespace -n kubewarden kubewarden-crds kubewarden/kubewarden-crds
+<pre><code class="language-console">helm install --wait --namespace kubewarden --create-namespace kubewarden-crds kubewarden/kubewarden-crds
 </code></pre>
 <p>Now we can deploy the rest of the Kubewarden stack. The official
 helm chart will create a PolicyServer named <code>default</code>. We want this PolicyServer
@@ -4388,19 +4979,17 @@ instance to have tracing enabled.</p>
 <p>In order to do that, we have to specify some extra values at installation time.
 Let's create a <code>values.yaml</code> file with the following contents:</p>
 <pre><code class="language-yaml">policyServer:
-  env:
-  - name: KUBEWARDEN_LOG_LEVEL
-    value: info
-  - name: KUBEWARDEN_LOG_FMT
-    value: otlp
-  annotations:
-    sidecar.opentelemetry.io/inject: &quot;true&quot;
+  telemetry:
+    enabled: True
+    tracing:
+      jaeger:
+        endpoint: &quot;all-in-one-collector.jaeger.svc.cluster.local:14250&quot;
 </code></pre>
 <p>Then we can proceed with the installation of the helm chart:</p>
-<pre><code class="language-console">helm install --wait --namespace kubewarden --values values.yaml kubewarden-controller kubewarden/kubewarden-controller
+<pre><code class="language-console">helm install --wait --namespace kubewarden --create-namespace --values values.yaml kubewarden-controller kubewarden/kubewarden-controller
 </code></pre>
 <p>This leads to the creation of the <code>default</code> instance of <code>PolicyServer</code>:</p>
-<pre><code class="language-console">kubectl get -n kubewarden policyservers.policies.kubewarden.io
+<pre><code class="language-console">kubectl get policyservers.policies.kubewarden.io
 NAME      AGE
 default   3m7s
 </code></pre>
@@ -4435,11 +5024,11 @@ spec:
     - owner
   rules:
     - apiGroups:
-        - &quot;*&quot;
+        - apps
       apiVersions:
-        - &quot;*&quot;
+        - v1
       resources:
-        - &quot;*&quot;
+        - deployments
       operations:
         - CREATE
         - UPDATE
@@ -4544,66 +5133,117 @@ EOF
 <p>As expected, this resource is successfully created.</p>
 <h2 id="exploring-the-jaeger-ui"><a class="header" href="#exploring-the-jaeger-ui">Exploring the Jaeger UI</a></h2>
 <p>We can see the trace events have been sent by the PolicyServer instance to Jaeger:</p>
-<p><img src="operator-manual/tracing//operator-manual/tracing/jaeger-ui-home.png" alt="Jaeger homepage" title="The homepage of Jaeger" /></p>
+<p><img src="operator-manual/telemetry/tracing//operator-manual/tracing/jaeger-ui-home.png" alt="Jaeger homepage" title="The homepage of Jaeger" /></p>
 <p>The Jaeger collector is properly receiving the traces generated by our PolicyServer.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="monitor-mode"><a class="header" href="#monitor-mode">Monitor mode</a></h1>
+<p>When a policy is deployed on the cluster, it will start accepting,
+rejecting or mutating requests. It's a binary operation, either the
+policy is taking decisions on operations it targets, or it's not
+installed at all.</p>
+<p>In order to let users deploy a policy to a cluster, without
+letting it take final decisions, the <code>monitor</code> mode has been included.</p>
+<p>The <code>monitor</code> mode is a way to deploy policies to the cluster in a way
+that:</p>
+<ol>
+<li>All requests that go through the policy will be accepted, as if the
+policy didn't exist.</li>
+<li>The policy result is traced in the <code>policy-server</code>
+normally. Details are included on whether the request would have
+been rejected, or if a mutation would have been proposed by the
+policy.</li>
+<li>The <code>policy-server</code> metrics are updated normally, with the mode
+included in the metric baggage. Therefore, it's easy to filter policies by
+mode, and focus on the ones deployed via <code>monitor</code> mode.</li>
+</ol>
+<p>The <code>mode</code> is an attribute included in the <code>ClusterAdmissionPolicy</code>
+resource. It supports two modes: <code>monitor</code> and <code>protect</code>. If the
+<code>mode</code> is omitted, it will default to <code>protect</code>.</p>
+<p>In order to create a policy in monitor mode, all you need to do is to
+include the mode as part of spec for the <code>ClusterAdmissionPolicy</code> resource as shown below:</p>
+<pre><code class="language-yaml">apiVersion: policies.kubewarden.io/v1alpha2
+kind: ClusterAdmissionPolicy
+metadata:
+  name: psp-capabilities
+spec:
+  mode: monitor
+  policyServer: reserved-instance-for-tenant-a
+  module: registry://ghcr.io/kubewarden/policies/psp-capabilities:v0.1.3
+  rules:
+  - apiGroups: [&quot;&quot;]
+    apiVersions: [&quot;v1&quot;]
+    resources: [&quot;pods&quot;]
+    operations:
+    - CREATE
+    - UPDATE
+  mutating: true
+  settings:
+    allowed_capabilities:
+    - CHOWN
+    required_drop_capabilities:
+    - NET_ADMIN
+</code></pre>
+<h2 id="transitioning-policy-mode"><a class="header" href="#transitioning-policy-mode">Transitioning policy mode</a></h2>
+<p>It's worth noting that certain attributes can be updated on policies
+once they have been deployed.</p>
+<p>For security purposes, a user with UPDATE permissions on
+<code>ClusterAdmissionPolicy</code> resources can make the policy more
+restrictive, so that:</p>
+<ul>
+<li>Transitioning the <code>mode</code> of an existing <code>ClusterAdmissionPolicy</code>
+from <code>monitor</code> to <code>protect</code> is allowed.</li>
+</ul>
+<p>However,</p>
+<ul>
+<li>Transitioning the <code>mode</code> of an existing <code>ClusterAdmissionPolicy</code>
+from <code>protect</code> to <code>monitor</code> is <strong>disallowed</strong>, because it would mean
+that the policy is effectively disabled during the time that it
+would have been in <code>monitor</code> mode, until it was restored back to
+<code>protect</code> mode.</li>
+</ul>
+<p>In order to change the <code>mode</code> of a <code>ClusterAdmissionPolicy</code> from
+<code>protect</code> to <code>monitor</code>, it is required to delete the
+<code>ClusterAdmissionPolicy</code> and recreate it in <code>monitor</code> mode. This
+ensures that the user has permissions to remove policies.</p>
+<h2 id="a-note-on-mutating-policies"><a class="header" href="#a-note-on-mutating-policies">A note on mutating policies</a></h2>
+<p>Mutating policies in <code>monitor</code> mode are <strong>not</strong> going to produce a
+mutation on the resource, since on <code>monitor</code> mode they are exclusively
+going to log what their answer would have been, including the patch
+that they would have produced had they been in <code>protect</code> mode.</p>
+<p>It's important to take this into account, given that when a mutating
+policy is in <code>monitor</code> mode, subsequent policies will evaluate a
+<em>slightly</em> different resource than they would have once the mutating policy
+is in <code>protect</code> mode. This is because the mutation that it produces has not
+happened due to the policy being in <code>monitor</code> mode.</p>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                        
-
-                        
-
                         <div style="clear: both"></div>
                     </nav>
                 </div>
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                
-
-                
             </nav>
 
         </div>
 
-        
-
-        
-
-        
-
-        
         <script type="text/javascript">
             window.playground_copyable = true;
         </script>
-        
-
-        
-
-        
         <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        
-
         <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
         <script src="book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
-        
-
-        
-        
         <script type="text/javascript">
         window.addEventListener('load', function() {
             window.setTimeout(window.print, 100);
         });
         </script>
-        
-        
-
     </body>
 </html>
