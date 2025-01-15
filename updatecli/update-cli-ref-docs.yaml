@@ -1,0 +1,6 @@
+policies:
+  - name: Update kwctl CLI reference documentation
+    policy: ghcr.io/jvanz/updatecli/policies/file:0.1.0@sha256:f1f3995b4e257b544bf58503a248f8b43aa475f636d0fca1fa9f2b116bf5129c 
+    values:
+      - values.d/kwctl.yaml
+

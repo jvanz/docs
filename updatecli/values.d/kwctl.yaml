@@ -1,0 +1,23 @@
+---
+# Values.yaml contains settings that be used from Updatecli manifest.
+sourceFile: "cli-docs.md"
+targetFile: "docs/reference/kwctl-cli.md"
+scm:
+  source:
+    author: "Updatecli bot"
+    branch: "main"
+    email: ""
+    owner: "UPDATECLI_GITHUB_OWNER"
+    repository: "kwctl"
+    token: "UPDATECLI_GITHUB_TOKEN"
+    user: "UPDATECLI_GITHUB_OWNER"
+    username: "updatecli-bot"
+  target:
+    author: "Updatecli bot"
+    branch: "main"
+    email: ""
+    owner: "UPDATECLI_GITHUB_OWNER"
+    repository: "docs"
+    token: "UPDATECLI_GITHUB_TOKEN"
+    user: "UPDATECLI_GITHUB_OWNER"
+    username: "updatecli-bot"
