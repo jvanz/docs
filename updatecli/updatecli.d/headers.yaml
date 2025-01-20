@@ -1,3 +1,10 @@
+# Helpers
+# {{ $GitHubUser := env ""}}
+# {{ $GitHubRepositoryList := env "GITHUB_REPOSITORY" | split "/"}}
+# {{ $GitHubPAT := env "GITHUB_TOKEN"}}
+# {{ $GitHubUsername := env "GITHUB_ACTOR"}}
+# {{ $DefaultTitle := (print "chore: sync file(s) from " .src.url ) }}
+
 name: Add header to the CLI reference documentation
 #{{ if .pipelineid }}
 pipelineid: '{{ .pipelineid }}'
@@ -5,14 +12,19 @@ pipelineid: '{{ .pipelineid }}'
 
 scms:
   target:
-    kind: github
+    kind: "github"
     spec:
-      owner: {{ requiredEnv .scms.owner }}
-      repository: {{ .scms.repository }}
-      branch: {{ .scms.branch }}
-      user: {{ requiredEnv .scms.owner }}
-      username: {{ .scms.username }}
-      token: {{ requiredEnv .scms.token }}
+      # Priority set to the environment variable
+      user: '{{ default $GitHubUser .scm.user}}'
+      owner: '{{ default $GitHubRepositoryList._0 .scm.owner }}'
+      repository: '{{ default $GitHubRepositoryList._1 .scm.repository}}'
+      token: '{{ default $GitHubPAT .scm.token }}'
+      username: '{{ default $GitHubUsername .scm.username }}'
+      branch: '{{ .scm.branch }}'
+      commitmessage:
+        type: "build"
+        hidecredit: true
+        footers: "Signed-off-by: Kubewarden bot <cncf-kubewarden-maintainers@lists.cncf.io>"
 
 sources:
 # {{ range $index, $file := .files }}
@@ -38,7 +50,7 @@ sources:
 targets:
 # {{ range $index, $file := .files }}
   commit{{ $index }}:
-    name: "Add header to the {{ $file.path }} file"
+    name: "chore: Add header to the {{ $file.path }} file"
     kind: file
     scmid: target
     sourceid: file{{ $index }}
