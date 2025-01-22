@@ -8,7 +8,7 @@ doc-persona: [kubewarden-operator]
 doc-type: [reference]
 doc-topic: [operator-manual]
 ---
-# Command-Line Help for `kwctl`
+# TESTING Command-Line Help for `kwctl`
 
 This document contains the help content for the `kwctl` command-line program.
 
