@@ -1,5 +1,5 @@
 ---
-pipelineid: cli-ref-docs
+# pipelineid: cli-ref-docs
 files:
   - path: "docs/reference/kwctl-cli.md"
     sidebar_label: kwctl CLI Reference
