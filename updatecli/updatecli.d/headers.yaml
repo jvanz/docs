@@ -75,4 +75,5 @@ actions:
 # {{ range .pr.labels }}
         - '{{ . }}'
 # {{ end }}
+# {{ end }}
 
