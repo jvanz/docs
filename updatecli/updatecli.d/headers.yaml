@@ -29,7 +29,7 @@ sources:
 # {{ range $index, $file := .files }}
   file{{ $index }}:
     kind: file
-    scmid: target
+    # scmid: target
     transformers:
       - addprefix: |
           ---
