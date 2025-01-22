@@ -7,12 +7,12 @@ files:
 src:
   branch: "main"
   url: "https://github.com/kubewarden/kwctl.git"
-scm:
-  branch: "main"
-  commitmessage:
-    hidecredit: true
-    footers: "Signed-off-by: Kubewarden bot <cncf-kubewarden-maintainers@lists.cncf.io>"
-pr:
-  labels:
-    - "kind/chore"
-    - "area/documentation"
+# scm:
+#   branch: "main"
+#   commitmessage:
+#     hidecredit: true
+#     footers: "Signed-off-by: Kubewarden bot <cncf-kubewarden-maintainers@lists.cncf.io>"
+# pr:
+#   labels:
+#     - "kind/chore"
+#     - "area/documentation"

@@ -70,4 +70,9 @@ actions:
 # {{ if .pr.description }}
       description: {{ .pr.description }}
 # {{ end }}
+# {{ if .pr.labels }}
+      labels:
+# {{ range .pr.labels }}
+        - '{{ . }}'
+# {{ end }}
 

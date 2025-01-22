@@ -15,3 +15,6 @@ scm:
 pr:
   title: "Update CLI Reference Docs"
   description: "Update all the CLI reference documentation"
+  labels:
+    - "kind/chore"
+    - "area/documentation"
