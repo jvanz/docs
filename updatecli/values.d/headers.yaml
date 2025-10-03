@@ -1,4 +1,5 @@
 ---
+pipelineid: "update-cli-ref"
 files:
   - path: "docs/reference/kwctl-cli.md"
     sidebar_label: kwctl CLI Reference
