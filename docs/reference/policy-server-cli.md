@@ -8,6 +8,16 @@ doc-persona: [kubewarden-operator]
 doc-type: [reference]
 doc-topic: [operator-manual]
 ---
+---
+sidebar_label: Policy Server CLI Reference
+sidebar_position: 121
+title: Policy Server CLI
+description: Policy Server CLI reference documentation
+keywords: [cli, reference, policy-server]
+doc-persona: [kubewarden-operator]
+doc-type: [reference]
+doc-topic: [operator-manual]
+---
 
 Blablabla
 
