@@ -9,3 +9,8 @@ policies:
   - policy: ghcr.io/jvanz/updatecli/policies/antora:0.2.0
     values:
       - values.d/kubewarden.yaml
+  - name: Update CLI docs target version
+    config:
+      - updatecli.d/update-cli-docs-version.yaml
+    values:
+      - values.d/kubewarden.yaml
