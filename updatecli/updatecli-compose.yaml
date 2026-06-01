@@ -9,8 +9,10 @@ policies:
   - policy: ghcr.io/jvanz/updatecli/policies/antora:0.2.1
     values:
       - values.d/kubewarden.yaml
+      - values.d/pipelineid.yaml
   - name: Update CLI docs target version
     config:
       - updatecli.d/update-cli-docs-version.yaml
     values:
       - values.d/update-cli-docs-version.yaml
+      - values.d/pipelineid.yaml
