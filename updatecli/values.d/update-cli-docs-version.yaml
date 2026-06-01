@@ -1,11 +1,5 @@
 ---
 scm:
-  user: ""
-  email: ""
-  owner: "kubewarden"
-  repository: "docs"
-  token: ""
-  username: ""
   branch: "main"
 
 pr:
