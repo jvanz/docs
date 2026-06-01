@@ -4,7 +4,6 @@
 # {{ $GitHubUsername := env "GITHUB_ACTOR"}}
 
 name: Update CLI documentation target version
-pipelineid: "antora/versioning"
 
 scms:
   default:
@@ -73,7 +72,7 @@ actions:
 # {{ end }}
 # {{ if .pr.labels }}
       labels:
-  # {{ range .pr.labels }}
+# {{ range .pr.labels }}
         - "{{ . }}"
 # {{ end }}
 # {{ end }}
