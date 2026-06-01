@@ -1,0 +1,16 @@
+---
+scm:
+  user: ""
+  email: ""
+  owner: "kubewarden"
+  repository: "docs"
+  token: ""
+  username: ""
+  branch: "main"
+
+pr:
+  title: "Update CLI docs target version to latest dev"
+  description: "Automatically update CLI reference documentation target paths to point to the current dev version directory"
+  labels:
+    - "kind/chore"
+    - "area/documentation"
