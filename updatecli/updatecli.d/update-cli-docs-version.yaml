@@ -4,6 +4,7 @@
 # {{ $GitHubUsername := env "GITHUB_ACTOR"}}
 
 name: Update CLI documentation target version
+pipelineid: "{{ .pipelineid }}"
 
 scms:
   default:
