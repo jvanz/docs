@@ -1,5 +1,8 @@
 ---
+repository: "jvanz/adm-controller"
 scm:
+  owner: "jvanz"
+  repository: "docs"
   branch: "main"
 
 pr:

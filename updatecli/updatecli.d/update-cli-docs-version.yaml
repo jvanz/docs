@@ -23,20 +23,37 @@ scms:
         footers: "Signed-off-by: Kubewarden bot <cncf-kubewarden-maintainers@lists.cncf.io>"
 
 sources:
+  releaseVersion:
+    name: "Get latest release version"
+    kind: githubrelease
+    spec:
+      # {{ $AppGitHubRepositoryList := .repository | split "/"}}
+      owner: '{{ $AppGitHubRepositoryList._0 }}'
+      repository: '{{ $AppGitHubRepositoryList._1 }}'
+      token: '{{ default .scm.token $GitHubPAT }}'
+      username: '{{ default .scm.username $GitHubUsername }}'
+      versionfilter:
+        kind: "semver"
+        pattern: ">0.1"
+    transformers:
+      - trimprefix: "v"
+      - findsubmatch:
+          pattern: '^(\d*).(\d*)'
+          captureindex: 0
+
   devVersion:
-    name: "Detect current dev version"
+    name: "Compute next dev version (release + 1)"
     kind: shell
+    dependson:
+      - "source#releaseVersion"
     spec:
       command: |
         #!/bin/sh
-        for dir in docs/admission-controller/version-*/; do
-          if [ -f "${dir}antora.yml" ] && grep -q "prerelease:" "${dir}antora.yml"; then
-            basename "$dir" | sed 's/version-//'
-            exit 0
-          fi
-        done
-        echo "No dev version found"
-        exit 1
+        VERSION='{{ source "releaseVersion" }}'
+        MAJOR=$(echo "$VERSION" | cut -d. -f1)
+        MINOR=$(echo "$VERSION" | cut -d. -f2)
+        NEXT_MINOR=$((MINOR + 1))
+        echo "${MAJOR}.${NEXT_MINOR}"
 
 targets:
   updateKwctlValuesFile:
