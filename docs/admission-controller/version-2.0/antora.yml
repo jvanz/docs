@@ -1,6 +1,7 @@
 name: admission-controller
 title: Admission Controller
-version: "1.36"
+version: '2.0'
+display: '2.0-latest'
 start_page: en:introduction.adoc
 nav:
   - modules/en/nav.adoc
