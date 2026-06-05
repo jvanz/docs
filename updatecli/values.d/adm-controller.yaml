@@ -1,7 +1,7 @@
 ---
 pipelineid: "docs-update"
 # Source repository to watch for new releases (format: owner/repo)
-sourceRepository: "kubewarden/adm-controller"
+sourceRepository: "jvanz/adm-controller"
 component: "admission-controller"
 scm:
   # GitHub user associated to the commit message
@@ -10,7 +10,7 @@ scm:
   email: ""
   # GitHub repository owner where the pull request will be created
   # If a variable "GITHUB_REPOSITORY" is set, it will be used instead
-  owner: "kubewarden"
+  owner: "jvanz"
   # GitHub repository where the pull request will be created
   # If a variable "GITHUB_REPOSITORY" is set, it will be used instead
   repository: "docs"
