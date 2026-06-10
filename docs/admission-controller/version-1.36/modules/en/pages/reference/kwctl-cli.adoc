@@ -7,20 +7,6 @@ include::partial$variables.adoc[]
 :doc-persona: kubewarden-operator
 :doc-type: reference
 :doc-topic: operator-manual
-// This file was converted from Markdown to AsciiDoc.
-
-include::partial$variables.adoc[]
-= kwctl CLI
-:page-languages: [en, de, es, fr, ja, pt, zh]
-:revdate: 2026-05-04
-:page-revdate: {revdate}
-:title: kwctl CLI
-:description: Explore the `kwctl` command-line tool to manage {admc-name} policies and perform tasks like loading policies.
-:keywords: cli, reference, kwctl
-:doc-persona: kubewarden-operator
-:doc-type: reference
-:doc-topic: operator-manual
-
 = Command-Line Help for `kwctl`
 
 This document contains the help content for the `kwctl` command-line program.
@@ -53,7 +39,7 @@ This document contains the help content for the `kwctl` command-line program.
 [[kwctl]]
 == `kwctl`
 
-Tool to manage {admc-name} policies
+Tool to manage {admc-short-name} policies
 
 *Usage:* `kwctl [OPTIONS] <COMMAND>`
 
@@ -63,7 +49,7 @@ Tool to manage {admc-name} policies
 * `bench` — Benchmarks a {admc-short-name} policy
 * `completions` — Generate shell completions
 * `digest` — Fetch digest from the OCI manifest of a policy
-* `docs` — Generates the AsciiDoc documentation for kwctl commands
+* `docs` — Generates documentation for kwctl commands. The output format is determined by the file extension: .md for Markdown, AsciiDoc otherwise
 * `info` — Display system information
 * `inspect` — Inspect {admc-short-name} policy
 * `load` — load policies from a tar.gz file
@@ -217,7 +203,7 @@ Fetch digest from the OCI manifest of a policy
 [[kwctl-docs]]
 == `kwctl docs`
 
-Generates the AsciiDoc documentation for kwctl commands
+Generates documentation for kwctl commands. The output format is determined by the file extension: .md for Markdown, AsciiDoc otherwise
 
 *Usage:* `kwctl docs --output <FILE>`
 
