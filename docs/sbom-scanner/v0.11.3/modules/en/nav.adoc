@@ -1,21 +1,21 @@
 include::partial$variables.adoc[]
 
-* xref:introduction.adoc[]
-* xref:installation/quickstart.adoc[]
+* xref:introduction.adoc[Overview]
+* xref:installation/quickstart.adoc[Quickstart]
 * Tutorials
 ** User guide
-*** xref:user-guide/scanning-registries.adoc[]
-*** xref:user-guide/scanning-workloads.adoc[]
-*** xref:user-guide/querying-reports.adoc[]
-*** xref:user-guide/airgap-support.adoc[]
-*** xref:user-guide/private-registries.adoc[]
-*** xref:user-guide/vex.adoc[]
-*** xref:user-guide/mcp-server.adoc[]
+*** xref:user-guide/scanning-registries.adoc[Scanning Registries]
+*** xref:user-guide/scanning-workloads.adoc[Scanning Workloads]
+*** xref:user-guide/querying-reports.adoc[Querying Reports]
+*** xref:user-guide/airgap-support.adoc[Airgap Support]
+*** xref:user-guide/private-registries.adoc[Private Registries]
+*** xref:user-guide/vex.adoc[Vex Support]
+*** xref:user-guide/mcp-server.adoc[MCP Server]
 // * Explanations
 * Howtos
-** xref:installation/uninstall.adoc[]
-** xref:installation/helm-values.adoc[]
-** xref:troubleshooting/collecting-logs.adoc[]
-** xref:troubleshooting/common-problems.adoc[]
+** xref:installation/uninstall.adoc[Uninstall]
+** xref:installation/helm-values.adoc[Helm Values]
+** xref:troubleshooting/collecting-logs.adoc[Collecting Logs]
+** xref:troubleshooting/common-problems.adoc[Common Problems]
 * Reference
-** xref:reference/crd-reference.adoc[]
+** xref:reference/crd-reference.adoc[CRD Reference]
