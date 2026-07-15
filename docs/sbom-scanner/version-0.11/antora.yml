@@ -1,7 +1,6 @@
 name: sbom-scanner
 title: SBOM Scanner
 version: "0.11"
-display: "0.11-latest"
 start_page: en:introduction.adoc
 asciidoc:
   attributes:
