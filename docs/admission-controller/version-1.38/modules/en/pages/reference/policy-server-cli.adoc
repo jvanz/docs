@@ -14,6 +14,7 @@ include::partial$variables.adoc[]
 This document contains the help content for the `policy-server` command-line program.
 
 *Command Overview:*
+blablabla
 
 * <<policy-server,`policy-server`>>
 * <<policy-server-docs,`policy-server docs`>>
